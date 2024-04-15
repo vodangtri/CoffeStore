@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C138B958-DE4D-4E75-923C-95F01F26C7D2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CoffeStore</RootNamespace>
+    <AssemblyName>CoffeStore</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.6.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\BouncyCastle.1.8.6.1\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.2, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\iTextSharp.5.5.13.2\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\..\Windows\microsoft.office.interop.excel\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\DoanhThuBLL.cs" />
+    <Compile Include="BLL\HoaDonBLL.cs" />
+    <Compile Include="BLL\ItemsBLL.cs" />
+    <Compile Include="BLL\ItemsCart_BLL.cs" />
+    <Compile Include="BLL\ListOrder_BLL.cs" />
+    <Compile Include="BLL\LoginBLL.cs" />
+    <Compile Include="BLL\TichDiemBLL.cs" />
+    <Compile Include="BLL\UserBLL.cs" />
+    <Compile Include="DAL\DatabaseAccess.cs" />
+    <Compile Include="DAL\DoanhThuDAL.cs" />
+    <Compile Include="DAL\HoaDonDAL.cs" />
+    <Compile Include="DAL\ItemsCart_DAL.cs" />
+    <Compile Include="DAL\ItemsDAL.cs" />
+    <Compile Include="DAL\ListOrder_DAL.cs" />
+    <Compile Include="DAL\LoginDAL.cs" />
+    <Compile Include="DAL\TichDiemDAL.cs" />
+    <Compile Include="DAL\UserCRUD_DAL.cs" />
+    <Compile Include="DTO\CartDTO.cs" />
+    <Compile Include="DTO\DoanhThuDTO.cs" />
+    <Compile Include="DTO\HoaDonDTO.cs" />
+    <Compile Include="DTO\ItemsDTO.cs" />
+    <Compile Include="DTO\ListOrderDTO.cs" />
+    <Compile Include="DTO\TichDiemDTO.cs" />
+    <Compile Include="DTO\User.cs" />
+    <Compile Include="HeThong\DangNhapHeThong\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeThong\DangNhapHeThong\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\DangNhapHeThong\UCDoiMatKhau.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HeThong\DangNhapHeThong\UCDoiMatKhau.Designer.cs">
+      <DependentUpon>UCDoiMatKhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\DangNhapHeThong\UCLogin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HeThong\DangNhapHeThong\UCLogin.Designer.cs">
+      <DependentUpon>UCLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\DangNhapHeThong\UCOTP.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HeThong\DangNhapHeThong\UCOTP.Designer.cs">
+      <DependentUpon>UCOTP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\DangNhapHeThong\UCUsername.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HeThong\DangNhapHeThong\UCUsername.Designer.cs">
+      <DependentUpon>UCUsername.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\NhanVienBanHang\GioHang\Bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeThong\NhanVienBanHang\GioHang\Bill.Designer.cs">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\NhanVienBanHang\GioHang\HoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeThong\NhanVienBanHang\GioHang\HoaDon.Designer.cs">
+      <DependentUpon>HoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\NhanVienBanHang\GioHang\TichDiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeThong\NhanVienBanHang\GioHang\TichDiem.Designer.cs">
+      <DependentUpon>TichDiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\NhanVienBanHang\GioHang\GiamGia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeThong\NhanVienBanHang\GioHang\GiamGia.Designer.cs">
+      <DependentUpon>GiamGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\NhanVienBanHang\HeThongDatMon\ItemsBH.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HeThong\NhanVienBanHang\HeThongDatMon\.Designer.cs">
+      <DependentUpon>ItemsBH.cs</DependentUpon>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HeThong\NhanVienBanHang\GioHang\UCBill.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HeThong\NhanVienBanHang\GioHang\UCBill.Designer.cs">
+      <DependentUpon>UCBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\NhanVienBanHang\GioHang\UCListOrder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HeThong\NhanVienBanHang\GioHang\UCListOrder.Designer.cs">
+      <DependentUpon>UCListOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\QuanLiCoffeStore\DoanhThu\UCDoanhThu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HeThong\QuanLiCoffeStore\DoanhThu\UCDoanhThu.Designer.cs">
+      <DependentUpon>UCDoanhThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\QuanLiCoffeStore\QuanLiThucDon\ItemsQL.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HeThong\QuanLiCoffeStore\QuanLiThucDon\ItemsQL.Designer.cs">
+      <DependentUpon>ItemsQL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\NhanVienBanHang\BanHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeThong\NhanVienBanHang\BanHang.Designer.cs">
+      <DependentUpon>BanHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\NhanVienBanHang\GioHang\UCGioHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HeThong\NhanVienBanHang\GioHang\UCGioHang.Designer.cs">
+      <DependentUpon>UCGioHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\NhanVienBanHang\GioHang\UCItems.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HeThong\NhanVienBanHang\GioHang\UCItems.Designer.cs">
+      <DependentUpon>UCItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\NhanVienBanHang\HeThongDatMon\UCDatMon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HeThong\NhanVienBanHang\HeThongDatMon\UCDatMon.Designer.cs">
+      <DependentUpon>UCDatMon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\NhanVienKeToan\KeToan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeThong\NhanVienKeToan\KeToan.Designer.cs">
+      <DependentUpon>KeToan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\NhanVienKho\Kho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeThong\NhanVienKho\Kho.Designer.cs">
+      <DependentUpon>Kho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\QuanLiCoffeStore\QuanLi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeThong\QuanLiCoffeStore\QuanLi.Designer.cs">
+      <DependentUpon>QuanLi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\DangNhapHeThong\UCPhoneNumber.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HeThong\DangNhapHeThong\UCPhoneNumber.Designer.cs">
+      <DependentUpon>UCPhoneNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\QuanLiCoffeStore\QuanLiThucDon\ThemItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeThong\QuanLiCoffeStore\QuanLiThucDon\ThemItems.Designer.cs">
+      <DependentUpon>ThemItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\QuanLiTaiKhoan\UCQLTK.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HeThong\QuanLiTaiKhoan\UCQLTK.Designer.cs">
+      <DependentUpon>UCQLTK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\QuanLiCoffeStore\QuanLiThucDon\UCQLTD.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HeThong\QuanLiCoffeStore\QuanLiThucDon\UCQLTD.Designer.cs">
+      <DependentUpon>UCQLTD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\QuanLiCoffeStore\QuanLiThucDon\UpdateItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeThong\QuanLiCoffeStore\QuanLiThucDon\UpdateItems.Designer.cs">
+      <DependentUpon>UpdateItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\UCThucDon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HeThong\UCThucDon.Designer.cs">
+      <DependentUpon>UCThucDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="HeThong\DangNhapHeThong\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\DangNhapHeThong\UCDoiMatKhau.resx">
+      <DependentUpon>UCDoiMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\DangNhapHeThong\UCLogin.resx">
+      <DependentUpon>UCLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\DangNhapHeThong\UCOTP.resx">
+      <DependentUpon>UCOTP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\DangNhapHeThong\UCUsername.resx">
+      <DependentUpon>UCUsername.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\NhanVienBanHang\GioHang\Bill.resx">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\NhanVienBanHang\GioHang\GiamGia.resx">
+      <DependentUpon>GiamGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\NhanVienBanHang\GioHang\HoaDon.resx">
+      <DependentUpon>HoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\NhanVienBanHang\GioHang\TichDiem.resx">
+      <DependentUpon>TichDiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\NhanVienBanHang\HeThongDatMon\ItemsBH.resx">
+      <DependentUpon>ItemsBH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\NhanVienBanHang\GioHang\UCBill.resx">
+      <DependentUpon>UCBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\NhanVienBanHang\GioHang\UCListOrder.resx">
+      <DependentUpon>UCListOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\QuanLiCoffeStore\DoanhThu\UCDoanhThu.resx">
+      <DependentUpon>UCDoanhThu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\QuanLiCoffeStore\QuanLiThucDon\ItemsQL.resx">
+      <DependentUpon>ItemsQL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\NhanVienBanHang\BanHang.resx">
+      <DependentUpon>BanHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\NhanVienBanHang\GioHang\UCGioHang.resx">
+      <DependentUpon>UCGioHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\NhanVienBanHang\GioHang\UCItems.resx">
+      <DependentUpon>UCItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\NhanVienBanHang\HeThongDatMon\UCDatMon.resx">
+      <DependentUpon>UCDatMon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\NhanVienKeToan\KeToan.resx">
+      <DependentUpon>KeToan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\NhanVienKho\Kho.resx">
+      <DependentUpon>Kho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\QuanLiCoffeStore\QuanLi.resx">
+      <DependentUpon>QuanLi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\DangNhapHeThong\UCPhoneNumber.resx">
+      <DependentUpon>UCPhoneNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\QuanLiCoffeStore\QuanLiThucDon\ThemItems.resx">
+      <DependentUpon>ThemItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\QuanLiTaiKhoan\UCQLTK.resx">
+      <DependentUpon>UCQLTK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\QuanLiCoffeStore\QuanLiThucDon\UCQLTD.resx">
+      <DependentUpon>UCQLTD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\QuanLiCoffeStore\QuanLiThucDon\UpdateItems.resx">
+      <DependentUpon>UpdateItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\UCThucDon.resx">
+      <DependentUpon>UCThucDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\drink.jpg" />
+    <Content Include="Resources\background2.jpg" />
+    <None Include="Resources\logo_koBackground.png" />
+    <None Include="Resources\logo21.jpg" />
+    <None Include="Resources\background21.jpg" />
+    <Content Include="Resources\logo2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="HeThong\NhanVienBanHang\DangXuat\" />
+    <Folder Include="HeThong\NhanVienBanHang\QuanLiTaiKhoan\" />
+    <Folder Include="HeThong\NhanVienKeToan\DangXuat\" />
+    <Folder Include="HeThong\NhanVienKeToan\DoanhThu\" />
+    <Folder Include="HeThong\NhanVienKeToan\QuanLiTaiKhoan\" />
+    <Folder Include="HeThong\NhanVienKho\DangXuat\" />
+    <Folder Include="HeThong\NhanVienKho\QuanLiKho\" />
+    <Folder Include="HeThong\NhanVienKho\QuanLiTaiKhoan\" />
+    <Folder Include="HeThong\QuanLiCoffeStore\DangXuat\" />
+    <Folder Include="HeThong\QuanLiCoffeStore\QuanLiKho\" />
+    <Folder Include="HeThong\QuanLiCoffeStore\QuanLiNhanVien\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
