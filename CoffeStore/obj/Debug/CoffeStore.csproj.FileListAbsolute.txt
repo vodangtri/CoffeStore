@@ -210,6 +210,7 @@ C:\Users\ASUS\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.GenerateResource
 C:\Users\ASUS\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.CoreCompileInputs.cache
 C:\Users\ASUS\CoffeStore\CoffeStore\obj\Debug\CoffeStore.exe
 C:\Users\ASUS\CoffeStore\CoffeStore\obj\Debug\CoffeStore.pdb
+<<<<<<< HEAD
 D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.AssemblyReference.cache
 D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.Login.resources
 D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.DangNhapHeThong.UCDoiMatKhau.resources
@@ -249,3 +250,37 @@ D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\bin\Debug\BouncyCastle.Crypto
 D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\bin\Debug\itextsharp.dll
 D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\bin\Debug\itextsharp.xml
 D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.CopyComplete
+=======
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.AssemblyReference.cache
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.Login.resources
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.DangNhapHeThong.UCDoiMatKhau.resources
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.DangNhapHeThong.UCLogin.resources
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.DangNhapHeThong.UCOTP.resources
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.DangNhapHeThong.UCUsername.resources
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.GioHang.Bill.resources
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.GioHang.GiamGia.resources
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.GioHang.HoaDon.resources
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.GioHang.TichDiem.resources
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.ItemsBH.resources
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.HeThongDatMon.UCBill.resources
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.HeThongDatMon.UCListOrder.resources
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.QuanLiCoffeStore.DoanhThu.UCDoanhThu.resources
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.ItemsQL.resources
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.BanHang.resources
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.GioHang.UCGioHang.resources
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.GioHang.UCItems.resources
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.HeThongDatMon.UCDatMon.resources
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienKho.Kho.resources
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.QuanLiCoffeStore.QuanLi.resources
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.UCPhoneNumber.resources
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.QuanLiCoffeStore.QuanLiThucDon.ThemItems.resources
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.QuanLiCoffeStore.QuanLiThucDon.UCQLTK.resources
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.QuanLiCoffeStore.QuanLiThucDon.UCQLTD.resources
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.QuanLiCoffeStore.QuanLiThucDon.UpdateItems.resources
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.UCThucDon.resources
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.Properties.Resources.resources
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.GenerateResource.cache
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.CoreCompileInputs.cache
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.exe
+C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.pdb
+>>>>>>> c7c74a964b594914029ed30d71f2f744dbd4a2ad
