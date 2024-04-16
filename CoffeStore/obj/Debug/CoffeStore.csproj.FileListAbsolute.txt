@@ -251,7 +251,6 @@ C:\Users\ASUS\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.GenerateResource
 C:\Users\ASUS\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.CoreCompileInputs.cache
 C:\Users\ASUS\CoffeStore\CoffeStore\obj\Debug\CoffeStore.exe
 C:\Users\ASUS\CoffeStore\CoffeStore\obj\Debug\CoffeStore.pdb
-<<<<<<< HEAD
 D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.AssemblyReference.cache
 D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.Login.resources
 D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.DangNhapHeThong.UCDoiMatKhau.resources
@@ -291,7 +290,6 @@ D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\bin\Debug\BouncyCastle.Crypto
 D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\bin\Debug\itextsharp.dll
 D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\bin\Debug\itextsharp.xml
 D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.CopyComplete
-=======
 C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.AssemblyReference.cache
 C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.Login.resources
 C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.DangNhapHeThong.UCDoiMatKhau.resources
