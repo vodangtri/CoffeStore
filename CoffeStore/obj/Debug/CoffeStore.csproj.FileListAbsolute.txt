@@ -27,7 +27,6 @@ C:\Users\TRI\Desktop\Source\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.D
 C:\Users\TRI\Desktop\Source\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.DangNhapHeThong.UCOTP.resources
 C:\Users\TRI\Desktop\Source\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.DangNhapHeThong.UCUsername.resources
 C:\Users\TRI\Desktop\Source\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.BanHang.resources
-C:\Users\TRI\Desktop\Source\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienKeToan.KeToan.resources
 C:\Users\TRI\Desktop\Source\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienKho.Kho.resources
 C:\Users\TRI\Desktop\Source\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.QuanLiCoffeStore.QuanLi.resources
 C:\Users\TRI\Desktop\Source\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.UCPhoneNumber.resources
