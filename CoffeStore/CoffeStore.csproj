@@ -192,12 +192,6 @@
     <Compile Include="HeThong\NhanVienBanHang\HeThongDatMon\UCDatMon.Designer.cs">
       <DependentUpon>UCDatMon.cs</DependentUpon>
     </Compile>
-    <Compile Include="HeThong\NhanVienKeToan\KeToan.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="HeThong\NhanVienKeToan\KeToan.Designer.cs">
-      <DependentUpon>KeToan.cs</DependentUpon>
-    </Compile>
     <Compile Include="HeThong\NhanVienKho\Kho.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -302,9 +296,6 @@
     <EmbeddedResource Include="HeThong\NhanVienBanHang\HeThongDatMon\UCDatMon.resx">
       <DependentUpon>UCDatMon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HeThong\NhanVienKeToan\KeToan.resx">
-      <DependentUpon>KeToan.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="HeThong\NhanVienKho\Kho.resx">
       <DependentUpon>Kho.cs</DependentUpon>
     </EmbeddedResource>
@@ -366,9 +357,6 @@
   <ItemGroup>
     <Folder Include="HeThong\NhanVienBanHang\DangXuat\" />
     <Folder Include="HeThong\NhanVienBanHang\QuanLiTaiKhoan\" />
-    <Folder Include="HeThong\NhanVienKeToan\DangXuat\" />
-    <Folder Include="HeThong\NhanVienKeToan\DoanhThu\" />
-    <Folder Include="HeThong\NhanVienKeToan\QuanLiTaiKhoan\" />
     <Folder Include="HeThong\NhanVienKho\DangXuat\" />
     <Folder Include="HeThong\NhanVienKho\QuanLiKho\" />
     <Folder Include="HeThong\NhanVienKho\QuanLiTaiKhoan\" />

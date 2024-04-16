@@ -2,7 +2,6 @@
 using CoffeStore.HeThong.NhanVienBanHang;
 using CoffeStore.HeThong.NhanVienBanHang.GioHang;
 using CoffeStore.HeThong.NhanVienBanHang.HeThongDatMon;
-using CoffeStore.HeThong.NhanVienKeToan;
 using CoffeStore.HeThong.NhanVienKho;
 using CoffeStore.HeThong.QuanLiCoffeStore.DoanhThu;
 using CoffeStore.HeThong.QuanLiCoffeStore.QuanLiThucDon;
@@ -49,7 +48,6 @@ namespace CoffeStore.HeThong.QuanLiCoffeStore
         public class Func
         {
             private QuanLi quanLi;
-            private KeToan keToan;
             private BanHang banHang;
             private Kho kho;
             private UCLogin login;
@@ -63,10 +61,10 @@ namespace CoffeStore.HeThong.QuanLiCoffeStore
             {
                 this.quanLi = main;
             }
-            public Func(KeToan main)
-            {
-                this.keToan = main;
-            }
+<<<<<<< HEAD
+=======
+
+>>>>>>> f07c7ede3bd641dd24f3c8617ce2b6efea4fc0e8
             public Func(BanHang main)
             {
                 this.banHang = main;
