@@ -61,6 +61,10 @@ namespace CoffeStore.HeThong.QuanLiCoffeStore
             {
                 this.quanLi = main;
             }
+<<<<<<< HEAD
+=======
+
+>>>>>>> f07c7ede3bd641dd24f3c8617ce2b6efea4fc0e8
             public Func(BanHang main)
             {
                 this.banHang = main;
