@@ -1,7 +1,6 @@
 ﻿using CoffeStore.BLL;
 using CoffeStore.DTO;
 using CoffeStore.HeThong.NhanVienBanHang;
-using CoffeStore.HeThong.NhanVienKeToan;
 using CoffeStore.HeThong.NhanVienKho;
 using CoffeStore.HeThong.QuanLiCoffeStore;
 using System;
@@ -116,14 +115,6 @@ namespace CoffeStore.HeThong.DangNhapHeThong
                     BanHang newMain = new BanHang(ehe.getIdByUsername(tk.UserName).ToString());
                     this.Parent.Parent.Hide();//cửa sổ login hiện tại sẽ ẩn đi
                     newMain.ShowDialog();//cửa số bán hàng hiển thị lên
-                }
-                else if (ehe.getIdByUsername(tk.UserName).ToString().Contains('A'))
-                {
-
-                    KeToan newMain = new KeToan(ehe.getIdByUsername(tk.UserName).ToString());
-                    this.Parent.Parent.Hide();
-                    newMain.ShowDialog();
-
                 }
                 else if (ehe.getIdByUsername(tk.UserName).ToString().Contains('M'))
                 {

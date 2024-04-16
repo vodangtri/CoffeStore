@@ -210,3 +210,42 @@ C:\Users\ASUS\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.GenerateResource
 C:\Users\ASUS\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.CoreCompileInputs.cache
 C:\Users\ASUS\CoffeStore\CoffeStore\obj\Debug\CoffeStore.exe
 C:\Users\ASUS\CoffeStore\CoffeStore\obj\Debug\CoffeStore.pdb
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.AssemblyReference.cache
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.Login.resources
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.DangNhapHeThong.UCDoiMatKhau.resources
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.DangNhapHeThong.UCLogin.resources
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.DangNhapHeThong.UCOTP.resources
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.DangNhapHeThong.UCUsername.resources
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.GioHang.Bill.resources
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.GioHang.GiamGia.resources
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.GioHang.HoaDon.resources
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.GioHang.TichDiem.resources
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.ItemsBH.resources
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.HeThongDatMon.UCBill.resources
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.HeThongDatMon.UCListOrder.resources
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.QuanLiCoffeStore.DoanhThu.UCDoanhThu.resources
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.ItemsQL.resources
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.BanHang.resources
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.GioHang.UCGioHang.resources
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.GioHang.UCItems.resources
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.HeThongDatMon.UCDatMon.resources
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienKho.Kho.resources
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.QuanLiCoffeStore.QuanLi.resources
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.UCPhoneNumber.resources
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.QuanLiCoffeStore.QuanLiThucDon.ThemItems.resources
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.QuanLiCoffeStore.QuanLiThucDon.UCQLTK.resources
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.QuanLiCoffeStore.QuanLiThucDon.UCQLTD.resources
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.QuanLiCoffeStore.QuanLiThucDon.UpdateItems.resources
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.UCThucDon.resources
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.Properties.Resources.resources
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.GenerateResource.cache
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.CoreCompileInputs.cache
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.exe
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.pdb
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\bin\Debug\CoffeStore.exe.config
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\bin\Debug\CoffeStore.exe
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\bin\Debug\CoffeStore.pdb
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\bin\Debug\BouncyCastle.Crypto.dll
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\bin\Debug\itextsharp.dll
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\bin\Debug\itextsharp.xml
+D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.CopyComplete
