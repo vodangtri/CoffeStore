@@ -11,8 +11,6 @@ namespace CoffeStore.HeThong.NhanVienBanHang.HeThongDatMon
         {
 
             InitializeComponent();
-
-           // pnlThucDon.Controls.Clear();
             UCThucDon refreshedUC = new UCThucDon();
            pnlThucDon.Controls.Add(refreshedUC);
 

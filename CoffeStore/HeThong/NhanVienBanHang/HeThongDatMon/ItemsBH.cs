@@ -37,8 +37,6 @@ namespace CoffeStore.HeThong
         public string ID { get { return _id; } set { _id = value; } }
         [Category("Custom Props")]
 
-        //    public string UserID { get { return _userID; } set { _userID = value; } }
-        //  [Category("Custom Props")]
         public string Title { get { return _title; } set { _title = value; lblTitle.Text = value; } }
         [Category("Custom Props")]
         public int Price { get { return _price; } set { _price = value; lblPrice.Text = value.ToString(); } }
@@ -73,9 +71,9 @@ namespace CoffeStore.HeThong
                 setChoice(lblQuantity2, btnPlus, true);
                 this.TotalQuantity = this.TotalQuantity - 1;
             }
-            //    this.TotalQuantity = this.TotalQuantity + 1;
-            ItemsBH item = new ItemsBH();
-          //  item.updateIntoCartData_CartTable_BLL(this.ID, this.TotalQuantity, this.UserID);
+        
+           // ItemsBH item = new ItemsBH();
+      
 
         }
         int soLuong;
@@ -85,22 +83,20 @@ namespace CoffeStore.HeThong
         }
         
         private void btnSub_Click(object sender, EventArgs e)
-        {
-            // int num = soLuong();
-            //MessageBox.Show(cc.ToString());lblQuantity2.Text)>=0 
+        { 
             setChoice(lblQuantity2, btnSub, false);
             if (this.TotalQuantity< soLuong)
             {
 
                 this.TotalQuantity = this.TotalQuantity + 1;
                 ItemsBH item = new ItemsBH();
-               // item.updateIntoCartData_CartTable_BLL(this.ID, this.TotalQuantity, this.UserID);
+         
             }
-            else if (TotalQuantity == 0)
+          /*  else if (TotalQuantity == 0)
             {
                 ItemsBH item = new ItemsBH();
                // item.deleteCartItem_CartTable_BLL(this.ID, this.UserID);
-            }
+            }*/
         }
         ItemsBLL itemsBLL = new ItemsBLL();
         ItemsCart_BLL itemsCart_BLL = new ItemsCart_BLL();
@@ -131,9 +127,6 @@ namespace CoffeStore.HeThong
             {
 
                 itemsBLL.UpdateInfomationBLL(idValue);
-
-               // UCThucDon refreshedUC = new UCThucDon();
-                //this.Hide();
             }
 
         }

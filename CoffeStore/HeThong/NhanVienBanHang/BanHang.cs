@@ -37,10 +37,9 @@ namespace CoffeStore.HeThong.NhanVienBanHang
 
         private void BanHang_Load(object sender, EventArgs e)
         {
-            //MessageBox.Show(userID);
+
 
         }
-        // Trong Form
 
         private void pnlThucDon_Paint(object sender, PaintEventArgs e)
         {

@@ -61,6 +61,7 @@ namespace CoffeStore.HeThong.QuanLiCoffeStore
             {
                 this.quanLi = main;
             }
+
             public Func(BanHang main)
             {
                 this.banHang = main;
@@ -95,8 +96,6 @@ namespace CoffeStore.HeThong.QuanLiCoffeStore
         {
 
         }
-        private UCQLTK taikhoan;
-        public static String name2 = "taikhoan";
 
         private void btnQLTK_Click(object sender, EventArgs e)
         {
@@ -120,7 +119,6 @@ namespace CoffeStore.HeThong.QuanLiCoffeStore
         {
             pnlMain.Controls.Clear();
             UserControl newControl = new UCDoanhThu();
-
             pnlMain.Controls.Add(newControl);
         }
     }
