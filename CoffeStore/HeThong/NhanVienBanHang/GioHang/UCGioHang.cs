@@ -29,7 +29,7 @@ namespace CoffeStore.HeThong.NhanVienBanHang.GioHang
             //MessageBox.Show(idNhanvien);
             Menu_UCGioHang(flpGioHang);
         }
-      /*  public Image resizeImage(Image image, int width, int height)
+       /*public Image resizeImage(Image image, int width, int height)
         {
             var destRect = new Rectangle(0, 0, width, height);
             var destImage = new Bitmap(width, height);
@@ -86,14 +86,15 @@ namespace CoffeStore.HeThong.NhanVienBanHang.GioHang
                     Item.ImageLink = tenp;
 
                     // Sử dụng đường dẫn cục bộ để tạo Bitmap
-                    /*string localImagePath = newCartItem.Picture; // Giả sử Picture chứa đường dẫn cục bộ
-                    using (var stream = new FileStream(localImagePath, FileMode.Open))
-                    {
+                   string localImagePath = newCartItem.Picture; // Giả sử Picture chứa đường dẫn cục bộ
+                   using (var stream = new FileStream(localImagePath, FileMode.Open))
+                   {
                         Item.Picture = Bitmap.FromStream(stream);
-                        Item.Picture = resizeImage(Item.Picture, 255, 143);
-                    }*/
-                    
-                  
+                       // Item.Picture = resizeImage(Item.Picture, 255, 143);
+                    }
+
+
+
                     Item.ID = newCartItem.IDItems;
                     Item.Title = newCartItem.NameItems;
                     Item.Price = newCartItem.Price;
@@ -104,7 +105,6 @@ namespace CoffeStore.HeThong.NhanVienBanHang.GioHang
                         Item.TotalQuantity = int.Parse(r["Quantity"].ToString());
                         break;
                     }
-                  /*  nameItems, priceItems, quantityItems*/
                     nameItems = Item.Title;
                     priceItems = Item.Price;
                     quantityItems = Item.TotalQuantity;

@@ -8,8 +8,7 @@ namespace CoffeStore.HeThong.QuanLiCoffeStore.QuanLiThucDon
     public partial class UCQLTD : UserControl
     {
         Func func = new Func();
-        private UCThucDon ucmenu;
-        public static String name = "menu";
+
         public UCQLTD()
         {
             InitializeComponent();

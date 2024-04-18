@@ -18,7 +18,7 @@ namespace CoffeStore.HeThong
 
 
 
-        public Image resizeImage(Image image, int width, int height)
+      /*  public Image resizeImage(Image image, int width, int height)
         {
             var destRect = new Rectangle(0, 0, width, height);
             var destImage = new Bitmap(width, height);
@@ -41,7 +41,7 @@ namespace CoffeStore.HeThong
             }
 
             return destImage;
-        }
+        }*/
 
         private FlowLayoutPanel Menu_UCThucDon(FlowLayoutPanel flowLayoutPanel1)
         {
@@ -81,12 +81,12 @@ namespace CoffeStore.HeThong
                             Item1.ImageLink = tenp;
 
                             // Sử dụng đường dẫn cục bộ để tạo Bitmap
-                            /*string localImagePath = newMenuItem.Picture; // Giả sử Picture chứa đường dẫn cục bộ
+                            string localImagePath = newMenuItem.Picture; // Giả sử Picture chứa đường dẫn cục bộ
                             using (var stream = new FileStream(localImagePath, FileMode.Open))
                             {
                                 Item1.Picture = Bitmap.FromStream(stream);
-                                Item1.Picture = resizeImage(Item1.Picture, 255, 143);
-                            }*/
+                                //   Item1.Picture = resizeImage(Item1.Picture, 255, 143);
+                            }
 
                             Item1.ID = newMenuItem.ID;
                             Item1.Title = newMenuItem.NameItems;
@@ -107,12 +107,13 @@ namespace CoffeStore.HeThong
                             Item2.ImageLink = tenp;
 
                             // Sử dụng đường dẫn cục bộ để tạo Bitmap
-                          /*  string localImagePath = newMenuItem.Picture; // Giả sử Picture chứa đường dẫn cục bộ
-                            using (var stream = new FileStream(localImagePath, FileMode.Open))
-                            {
-                                Item2.Picture = Bitmap.FromStream(stream);
-                                Item2.Picture = resizeImage(Item2.Picture, 255, 143);
-                            }*/
+                              string localImagePath = newMenuItem.Picture; // Giả sử Picture chứa đường dẫn cục bộ
+                              using (var stream = new FileStream(localImagePath, FileMode.Open))
+                              {
+                                  Item2.Picture = Bitmap.FromStream(stream);
+                                //  Item2.Picture = resizeImage(Item2.Picture, 255, 143);
+                              }
+               
 
                             Item2.ID = newMenuItem.ID;
                             Item2.Title = newMenuItem.NameItems;

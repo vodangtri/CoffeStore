@@ -39,6 +39,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.txtQuantity = new System.Windows.Forms.TextBox();
             this.btnAdd = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtPicture
@@ -47,7 +48,7 @@
             this.txtPicture.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPicture.Location = new System.Drawing.Point(293, 83);
             this.txtPicture.Name = "txtPicture";
-            this.txtPicture.Size = new System.Drawing.Size(611, 38);
+            this.txtPicture.Size = new System.Drawing.Size(416, 38);
             this.txtPicture.TabIndex = 2;
             this.txtPicture.TextChanged += new System.EventHandler(this.txtPicture_TextChanged);
             // 
@@ -146,12 +147,27 @@
             this.btnAdd.UseVisualStyleBackColor = false;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.DarkOrange;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button1.Location = new System.Drawing.Point(732, 83);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(172, 38);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "Chọn ảnh";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // ThemItems
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PapayaWhip;
             this.ClientSize = new System.Drawing.Size(1051, 448);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtQuantity);
@@ -184,5 +200,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtQuantity;
         private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button button1;
     }
 }
