@@ -56,6 +56,7 @@
             // dtgvRevenueinf
             // 
             this.dtgvRevenueinf.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dtgvRevenueinf.BackgroundColor = System.Drawing.Color.White;
             this.dtgvRevenueinf.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgvRevenueinf.Location = new System.Drawing.Point(24, 317);
             this.dtgvRevenueinf.Margin = new System.Windows.Forms.Padding(10, 11, 10, 11);
