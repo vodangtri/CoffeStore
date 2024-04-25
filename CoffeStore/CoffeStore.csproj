@@ -348,10 +348,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\img\drink.jpg" />
+    <None Include="Resources\arrow.png" />
     <Content Include="Resources\background2.jpg" />
     <None Include="Resources\logo_koBackground.png" />
     <None Include="Resources\logo21.jpg" />
     <None Include="Resources\background21.jpg" />
+    <None Include="Resources\Eye.png" />
+    <None Include="Resources\Blind.png" />
+    <None Include="Resources\Blind1.png" />
     <Content Include="Resources\logo2.jpg" />
   </ItemGroup>
   <ItemGroup>

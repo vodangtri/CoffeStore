@@ -159,5 +159,26 @@ namespace CoffeStore.HeThong.DangNhapHeThong
             // Hiển thị UserControl mới
             newControl.Show();
         }
+
+        private void btnShow_Click(object sender, EventArgs e)
+        {
+            if (txtPassword.Text.Length > 0)
+            {
+                btnHide.BringToFront();
+                txtPassword.UseSystemPasswordChar = false;
+            }
+        }
+
+        private void btnHide_Click(object sender, EventArgs e)
+        {
+            
+                btnShow.BringToFront();
+                txtPassword.UseSystemPasswordChar = true;
+         }
+
+        private void txtPassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

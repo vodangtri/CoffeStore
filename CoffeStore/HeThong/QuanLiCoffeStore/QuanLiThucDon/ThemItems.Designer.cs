@@ -48,6 +48,7 @@
             this.txtPicture.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPicture.Location = new System.Drawing.Point(293, 83);
             this.txtPicture.Name = "txtPicture";
+            this.txtPicture.ReadOnly = true;
             this.txtPicture.Size = new System.Drawing.Size(416, 38);
             this.txtPicture.TabIndex = 2;
             this.txtPicture.TextChanged += new System.EventHandler(this.txtPicture_TextChanged);
