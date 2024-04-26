@@ -39,7 +39,7 @@
             // 
             // pbImage
             // 
-            this.pbImage.Image = global::CoffeStore.Properties.Resources.drink;
+          //  this.pbImage.Image = global::CoffeStore.Properties.Resources.drink;
             this.pbImage.Location = new System.Drawing.Point(0, -1);
             this.pbImage.Name = "pbImage";
             this.pbImage.Size = new System.Drawing.Size(252, 182);

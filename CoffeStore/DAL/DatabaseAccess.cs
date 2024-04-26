@@ -4,13 +4,18 @@ using System;
 using System.Data;
 using System.Data.Common;
 using System.Data.SqlClient;
+using System.Globalization;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Rebar;
 
 namespace CoffeStore.DAL
 {
     internal class DatabaseAccess
     {
+
         private string connectionString = @"Data Source=LAPTOP-3905GG6Q;Initial Catalog=CoffeStore;Integrated Security=True;MultipleActiveResultSets=True;";
+
 
         public string checkLoginData_DA_DAL(User tk)
         {
@@ -41,6 +46,331 @@ namespace CoffeStore.DAL
             }
             return userName;
         }
+
+
+
+        public string LayHoTenDA_DAL(string userID)
+        {
+            string FullName = null;
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    conn.Open();
+                    string sSQL = "SELECT FullName FROM Account WHERE UserID = @UserID";
+                    using (SqlCommand cmd = new SqlCommand(sSQL, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@UserID", userID);
+                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        {
+                            if (reader.HasRows)
+                            {
+                                reader.Read();
+                                FullName = reader.GetString(reader.GetOrdinal("FullName"));
+                            }
+                            else
+                            {
+                                return "Không tìm thấy tài khoản với UserID này!";
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                return "Lỗi: " + ex.Message;
+            }
+            return FullName;
+        }
+
+        public string LayNgaySinhDA_DAL(string userID)
+        {
+            string BirthDay = null;
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    conn.Open();
+                    string sSQL = "SELECT CONVERT(VARCHAR, BirthDay, 110) AS BirthDay FROM Account WHERE UserID = @UserID";
+                    using (SqlCommand cmd = new SqlCommand(sSQL, conn))
+                    {
+                        // Use Add to specify the parameter type explicitly
+                        cmd.Parameters.Add("@UserID", SqlDbType.VarChar).Value = userID;
+                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        {
+                            if (reader.HasRows)
+                            {
+                                reader.Read();
+                                // Check for DB null values before calling GetString
+                                if (!reader.IsDBNull(reader.GetOrdinal("BirthDay")))
+                                {
+                                    BirthDay = reader.GetString(reader.GetOrdinal("BirthDay"));
+                                }
+                                else
+                                {
+                                    return "Ngày sinh không tồn tại cho UserID này!";
+                                }
+                            }
+                            else
+                            {
+                                return "Không tìm thấy tài khoản với UserID này!";
+                            }
+                        }
+                    }
+                }
+            }
+            catch (SqlException sqlEx)
+            {
+                // Handle SQL-specific exceptions
+                return "Lỗi SQL: " + sqlEx.Message;
+            }
+            catch (Exception ex)
+            {
+                // Handle all other exceptions
+                return "Lỗi: " + ex.Message;
+            }
+            return BirthDay;
+        }
+        public string LayEmailDA_DAL(string userID)
+        {
+            string Email = null;
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    conn.Open();
+                    string sSQL = "SELECT Email FROM Account WHERE UserID = @UserID";
+                    using (SqlCommand cmd = new SqlCommand(sSQL, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@UserID", userID);
+                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        {
+                            if (reader.HasRows)
+                            {
+                                reader.Read();
+                                Email = reader.GetString(reader.GetOrdinal("Email"));
+                            }
+                            else
+                            {
+                                return "Không tìm thấy tài khoản với UserID này!";
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                return "Lỗi: " + ex.Message;
+            }
+            return Email;
+        }
+        public string LayPhoneNumberDA_DAL(string userID)
+        {
+            string PhoneNumber = null;
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    conn.Open();
+                    string sSQL = "SELECT PhoneNumber FROM Account WHERE UserID = @UserID";
+                    using (SqlCommand cmd = new SqlCommand(sSQL, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@UserID", userID);
+                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        {
+                            if (reader.HasRows)
+                            {
+                                reader.Read();
+                                PhoneNumber = reader.GetString(reader.GetOrdinal("PhoneNumber"));
+                            }
+                            else
+                            {
+                                return "Không tìm thấy tài khoản với UserID này!";
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                return "Lỗi: " + ex.Message;
+            }
+            return PhoneNumber;
+        }
+        public string LayDiaChiDA_DAL(string userID)
+        {
+            string DiaChi = null;
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    conn.Open();
+                    string sSQL = "SELECT DiaChi FROM Account WHERE UserID = @UserID";
+                    using (SqlCommand cmd = new SqlCommand(sSQL, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@UserID", userID);
+                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        {
+                            if (reader.HasRows)
+                            {
+                                reader.Read();
+                                DiaChi = reader.GetString(reader.GetOrdinal("DiaChi"));
+                            }
+                            else
+                            {
+                                return "Không tìm thấy tài khoản với UserID này!";
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                return "Lỗi: " + ex.Message;
+            }
+            return DiaChi;
+        }
+        public string LayUserRoleDA_DAL(string userID)
+        {
+            string UserRole = null;
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    conn.Open();
+                    string sSQL = "SELECT UserRole FROM Account WHERE UserID = @UserID";
+                    using (SqlCommand cmd = new SqlCommand(sSQL, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@UserID", userID);
+                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        {
+                            if (reader.HasRows)
+                            {
+                                reader.Read();
+                                UserRole = reader.GetString(reader.GetOrdinal("UserRole"));
+                            }
+                            else
+                            {
+                                return "Không tìm thấy tài khoản với UserID này!";
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                return "Lỗi: " + ex.Message;
+            }
+            return UserRole;
+        }
+        public void UpdateInfomationUserDA_DAL(string userId, string FullName, DateTime birthDay, string email, string sdt, string diaChi, string userRole)
+        {
+            string sql = @"UPDATE Account 
+                   SET FullName = @FullName, 
+                       BirthDay = @BirthDay, 
+                       Email = @Email, 
+                       PhoneNumber = @PhoneNumber, 
+                       DiaChi = @DiaChi,                        UserRole = @UserRole 
+                   WHERE UserID = @UserID";
+
+
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                using (SqlCommand command = new SqlCommand(sql, connection))
+                {
+                    // Thêm tham số vào câu lệnh SQL
+                    command.Parameters.AddWithValue("@UserID", userId);
+                    command.Parameters.AddWithValue("@FullName", FullName);
+                    command.Parameters.AddWithValue("@BirthDay", birthDay); // Chuyển đổi thành kiểu DateTime
+                    command.Parameters.AddWithValue("@Email", email);
+                    command.Parameters.AddWithValue("@PhoneNumber", sdt);
+                    command.Parameters.AddWithValue("@DiaChi", diaChi);
+                    command.Parameters.AddWithValue("@UserRole", userRole);
+
+                    // Mở kết nối và thực hiện câu lệnh SQL
+                    connection.Open();
+                    command.ExecuteNonQuery();
+                }
+            }
+            MessageBox.Show("Cập Nhật Thành Công");
+        }
+
+        public int TonTaiMatKhauDA_DAL(string userId, string password)
+        {
+            int count = 0;
+
+            try
+            {
+                // Mở kết nối đến cơ sở dữ liệu
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+
+                    // Xây dựng câu lệnh SQL để đếm số lượng bản ghi thỏa mãn điều kiện
+                    string query = "SELECT COUNT(*) FROM Account WHERE UserPassword = @UserPassword AND UserID = @UserID";
+
+                    // Tạo một đối tượng SqlCommand
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        // Truyền tham số vào câu lệnh SQL
+                        command.Parameters.AddWithValue("@UserPassword", password);
+                        command.Parameters.AddWithValue("@UserID", userId);
+
+                        // Thực thi câu lệnh SQL và lấy số lượng bản ghi
+                        count = (int)command.ExecuteScalar();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Lỗi: " + ex.Message);
+            }
+
+            return count;
+        }
+        public void UpdatePasswordDA_DAL(string id,string txtmatkhaumoi) 
+            {
+                try
+                {
+                    // Mở kết nối đến cơ sở dữ liệu
+                    using (SqlConnection connection = new SqlConnection(connectionString))
+                    {
+                        connection.Open();
+
+                        // Xây dựng câu lệnh SQL để cập nhật mật khẩu mới
+                        string query = "UPDATE Account SET UserPassword = @NewPassword WHERE UserID = @UserID";
+
+                        // Tạo một đối tượng SqlCommand
+                        using (SqlCommand command = new SqlCommand(query, connection))
+                        {
+                            // Truyền tham số vào câu lệnh SQL
+                            command.Parameters.AddWithValue("@NewPassword",txtmatkhaumoi);
+                            command.Parameters.AddWithValue("@UserID", id);
+
+                            // Thực thi câu lệnh SQL
+                            int rowsAffected = command.ExecuteNonQuery();
+
+                            if (rowsAffected > 0)
+                            {
+                                Console.WriteLine("Mật khẩu đã được cập nhật thành công.");
+                            }
+                            else
+                            {
+                                Console.WriteLine("Không tìm thấy người dùng với ID: " + id);
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Lỗi: " + ex.Message);
+                }
+            }
+        
+
+
+
         public string checkUsername_DA_DAL(User tk)
         {
             string userName = null;

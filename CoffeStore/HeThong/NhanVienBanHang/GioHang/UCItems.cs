@@ -26,9 +26,6 @@ namespace CoffeStore.HeThong.NhanVienBanHang.GioHang
         [Category("Custom Props")]
         public string ID { get { return _id; } set { _id = value; } }
         [Category("Custom Props")]
-
-        //    public string UserID { get { return _userID; } set { _userID = value; } }
-        //  [Category("Custom Props")]
         public string Title { get { return _title; } set { _title = value; lblTitle.Text = value; } }
         [Category("Custom Props")]
         public int Price { get { return _price; } set { _price = value; lblPrice.Text = value.ToString(); } }

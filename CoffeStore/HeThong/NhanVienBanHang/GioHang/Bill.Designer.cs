@@ -99,7 +99,9 @@
             // 
             // dtgvListOrder
             // 
+            this.dtgvListOrder.BackgroundColor = System.Drawing.Color.White;
             this.dtgvListOrder.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvListOrder.GridColor = System.Drawing.Color.White;
             this.dtgvListOrder.Location = new System.Drawing.Point(246, 172);
             this.dtgvListOrder.Margin = new System.Windows.Forms.Padding(6);
             this.dtgvListOrder.Name = "dtgvListOrder";

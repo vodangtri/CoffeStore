@@ -27,7 +27,6 @@ C:\Users\TRI\Desktop\Source\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.D
 C:\Users\TRI\Desktop\Source\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.DangNhapHeThong.UCOTP.resources
 C:\Users\TRI\Desktop\Source\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.DangNhapHeThong.UCUsername.resources
 C:\Users\TRI\Desktop\Source\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.BanHang.resources
-C:\Users\TRI\Desktop\Source\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienKeToan.KeToan.resources
 C:\Users\TRI\Desktop\Source\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienKho.Kho.resources
 C:\Users\TRI\Desktop\Source\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.QuanLiCoffeStore.QuanLi.resources
 C:\Users\TRI\Desktop\Source\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.UCPhoneNumber.resources
@@ -137,6 +136,48 @@ C:\cygwin64\home\ADMIN\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.CoreCom
 C:\cygwin64\home\ADMIN\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.CopyComplete
 C:\cygwin64\home\ADMIN\CoffeStore\CoffeStore\obj\Debug\CoffeStore.exe
 C:\cygwin64\home\ADMIN\CoffeStore\CoffeStore\obj\Debug\CoffeStore.pdb
+<<<<<<< HEAD
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\bin\Debug\CoffeStore.exe.config
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\bin\Debug\CoffeStore.exe
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\bin\Debug\CoffeStore.pdb
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\bin\Debug\BouncyCastle.Crypto.dll
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\bin\Debug\itextsharp.dll
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\bin\Debug\itextsharp.xml
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.AssemblyReference.cache
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.Login.resources
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.DangNhapHeThong.UCDoiMatKhau.resources
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.DangNhapHeThong.UCLogin.resources
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.DangNhapHeThong.UCOTP.resources
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.DangNhapHeThong.UCUsername.resources
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.GioHang.Bill.resources
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.GioHang.GiamGia.resources
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.GioHang.HoaDon.resources
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.GioHang.TichDiem.resources
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.ItemsBH.resources
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.HeThongDatMon.UCBill.resources
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.HeThongDatMon.UCListOrder.resources
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.QuanLiCoffeStore.DoanhThu.UCDoanhThu.resources
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.ItemsQL.resources
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.BanHang.resources
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.GioHang.UCGioHang.resources
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.GioHang.UCItems.resources
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.HeThongDatMon.UCDatMon.resources
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienKeToan.KeToan.resources
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienKho.Kho.resources
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.QuanLiCoffeStore.QuanLi.resources
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.UCPhoneNumber.resources
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.QuanLiCoffeStore.QuanLiThucDon.ThemItems.resources
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.QuanLiCoffeStore.QuanLiThucDon.UCQLTK.resources
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.QuanLiCoffeStore.QuanLiThucDon.UCQLTD.resources
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.QuanLiCoffeStore.QuanLiThucDon.UpdateItems.resources
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.UCThucDon.resources
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.Properties.Resources.resources
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.GenerateResource.cache
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.CoreCompileInputs.cache
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.CopyComplete
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.exe
+D:\bài tập lab các môn\Học kì 4\Code CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.pdb
+=======
 C:\Users\A103\Source\Repos\CoffeStore\CoffeStore\bin\Debug\CoffeStore.exe.config
 C:\Users\A103\Source\Repos\CoffeStore\CoffeStore\bin\Debug\CoffeStore.exe
 C:\Users\A103\Source\Repos\CoffeStore\CoffeStore\bin\Debug\CoffeStore.pdb
@@ -210,7 +251,6 @@ C:\Users\ASUS\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.GenerateResource
 C:\Users\ASUS\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.CoreCompileInputs.cache
 C:\Users\ASUS\CoffeStore\CoffeStore\obj\Debug\CoffeStore.exe
 C:\Users\ASUS\CoffeStore\CoffeStore\obj\Debug\CoffeStore.pdb
-<<<<<<< HEAD
 D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.AssemblyReference.cache
 D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.Login.resources
 D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.DangNhapHeThong.UCDoiMatKhau.resources
@@ -250,7 +290,6 @@ D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\bin\Debug\BouncyCastle.Crypto
 D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\bin\Debug\itextsharp.dll
 D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\bin\Debug\itextsharp.xml
 D:\Công nghệ phẩn mềm\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.CopyComplete
-=======
 C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.AssemblyReference.cache
 C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.Login.resources
 C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.DangNhapHeThong.UCDoiMatKhau.resources
@@ -284,3 +323,44 @@ C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.CoreCompileInpu
 C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.exe
 C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.pdb
 >>>>>>> c7c74a964b594914029ed30d71f2f744dbd4a2ad
+>>>>>>> adc45cdb146f3256e45961d0d1dd4e37fa9f358c
+D:\CNPM\CoffeStore\CoffeStore\bin\Debug\CoffeStore.exe.config
+D:\CNPM\CoffeStore\CoffeStore\bin\Debug\CoffeStore.exe
+D:\CNPM\CoffeStore\CoffeStore\bin\Debug\CoffeStore.pdb
+D:\CNPM\CoffeStore\CoffeStore\bin\Debug\BouncyCastle.Crypto.dll
+D:\CNPM\CoffeStore\CoffeStore\bin\Debug\itextsharp.dll
+D:\CNPM\CoffeStore\CoffeStore\bin\Debug\itextsharp.xml
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.AssemblyReference.cache
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.Login.resources
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.DangNhapHeThong.UCDoiMatKhau.resources
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.DangNhapHeThong.UCLogin.resources
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.DangNhapHeThong.UCOTP.resources
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.DangNhapHeThong.UCUsername.resources
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.GioHang.Bill.resources
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.GioHang.GiamGia.resources
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.GioHang.HoaDon.resources
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.GioHang.TichDiem.resources
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.ItemsBH.resources
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.HeThongDatMon.UCBill.resources
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.HeThongDatMon.UCListOrder.resources
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.QuanLiCoffeStore.DoanhThu.UCDoanhThu.resources
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.ItemsQL.resources
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.BanHang.resources
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.GioHang.UCGioHang.resources
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.GioHang.UCItems.resources
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienBanHang.HeThongDatMon.UCDatMon.resources
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienKho.Kho.resources
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.QuanLiCoffeStore.QuanLi.resources
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.UCPhoneNumber.resources
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.QuanLiCoffeStore.QuanLiThucDon.ThemItems.resources
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.QuanLiCoffeStore.QuanLiThucDon.UCQLTK.resources
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.QuanLiCoffeStore.QuanLiThucDon.UCQLTD.resources
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.QuanLiCoffeStore.QuanLiThucDon.UpdateItems.resources
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.UCThucDon.resources
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.Properties.Resources.resources
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.GenerateResource.cache
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.CoreCompileInputs.cache
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.csproj.CopyComplete
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.exe
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.pdb
+D:\CNPM\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.QuanLiTaiKhoan.DoiMatKhau.resources

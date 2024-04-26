@@ -1,5 +1,6 @@
 ﻿using CoffeStore.BLL;
 using System;
+using System.Drawing;
 using System.Windows.Forms;
 using static CoffeStore.HeThong.QuanLiCoffeStore.QuanLi;
 
@@ -12,6 +13,18 @@ namespace CoffeStore.HeThong.QuanLiCoffeStore.QuanLiThucDon
             InitializeComponent();
         }
         public Panel ExternalPanel { get; set; }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Image Files(*.jpg; *.jpeg; *.gif; *.bmp; *.png)|*.jpg; *.jpeg; *.gif; *.bmp; *.png";
+
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                txtPicture.Text = openFileDialog.FileName;
+
+            }
+
+        }
 
         private void txtPicture_TextChanged(object sender, EventArgs e)
         {
@@ -52,5 +65,6 @@ namespace CoffeStore.HeThong.QuanLiCoffeStore.QuanLiThucDon
         {
 
         }
+
     }
 }

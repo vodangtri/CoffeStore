@@ -37,10 +37,9 @@ namespace CoffeStore.HeThong.NhanVienBanHang
 
         private void BanHang_Load(object sender, EventArgs e)
         {
-            //MessageBox.Show(userID);
+
 
         }
-        // Trong Form
 
         private void pnlThucDon_Paint(object sender, PaintEventArgs e)
         {
@@ -65,7 +64,7 @@ namespace CoffeStore.HeThong.NhanVienBanHang
         private void btnQLTK_Click(object sender, EventArgs e)
         {
             pnlMain.Controls.Clear();
-            UCQLTK ucQLTK = new UCQLTK();
+            UCQLTK ucQLTK = new UCQLTK(this.userID);
             // Thêm UCGioHang vào pnlMain
             pnlMain.Controls.Add(ucQLTK);
 
