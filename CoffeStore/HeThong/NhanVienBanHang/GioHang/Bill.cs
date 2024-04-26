@@ -24,7 +24,6 @@ namespace CoffeStore.HeThong.NhanVienBanHang.GioHang
 
         ListOrder_BLL listOrder = new ListOrder_BLL();
 
-        private string connectionString;
         private void Bill_Load(object sender, EventArgs e)
         {
             // Hiển thị dữ liệu lên các textbox tương ứng
@@ -145,8 +144,10 @@ namespace CoffeStore.HeThong.NhanVienBanHang.GioHang
         }
         private void btnIn_Click(object sender, EventArgs e)
         {
-            BaseFont bf = BaseFont.CreateFont("C:\\fonts\\vuArial.ttf",
-                                   BaseFont.IDENTITY_H, BaseFont.EMBEDDED);
+            //  BaseFont bf = BaseFont.CreateFont("C:\\fonts\\vuArial.ttf",
+            //       BaseFont.IDENTITY_H, BaseFont.EMBEDDED);
+            BaseFont bf = BaseFont.CreateFont("fonts\\vuArial.ttf",
+       BaseFont.IDENTITY_H, BaseFont.EMBEDDED);
             // khỏi tạo font chữ
             iTextSharp.text.Font font = new iTextSharp.text.Font(bf, 14);
             iTextSharp.text.Font boldFont = new iTextSharp.text.Font(bf, 20, iTextSharp.text.Font.BOLD); // Font in đậm cho "Đơn đặt món"

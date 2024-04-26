@@ -121,5 +121,14 @@ namespace CoffeStore.HeThong.QuanLiCoffeStore
             UserControl newControl = new UCDoanhThu();
             pnlMain.Controls.Add(newControl);
         }
+
+        private void btnDX_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Bạn có muốn đăng xuất không?", "Thông báo", MessageBoxButtons.OKCancel) == System.Windows.Forms.DialogResult.OK)
+            {
+                this.Hide();
+                Application.Restart();
+            }
+        }
     }
 }

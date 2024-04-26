@@ -1,6 +1,7 @@
 ﻿using CoffeStore.BLL;
 using System;
 using System.Data.SqlClient;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace CoffeStore.HeThong.DangNhapHeThong
@@ -20,6 +21,35 @@ namespace CoffeStore.HeThong.DangNhapHeThong
             userName = data;
           
         }
+        private void txtEnterPassword_Leave(object sender, EventArgs e)
+        {
+
+                txtEnterPassword.ForeColor = Color.Silver;
+                txtEnterPassword.UseSystemPasswordChar = false;
+  
+        }
+        private void txtEnterPassword_Enter(object sender, EventArgs e)
+        {
+
+                txtEnterPassword.ForeColor = Color.Silver;
+                txtEnterPassword.UseSystemPasswordChar = true;
+ 
+        }
+        private void txtConfirmPassword_Leave(object sender, EventArgs e)
+        {
+
+            txtConfirmPassword.ForeColor = Color.Silver;
+            txtConfirmPassword.UseSystemPasswordChar = false;
+
+        }
+        private void txtConfirmPassword_Enter(object sender, EventArgs e)
+        {
+
+            txtConfirmPassword.ForeColor = Color.Silver;
+            txtConfirmPassword.UseSystemPasswordChar = true;
+
+        }
+
         private void lblNote_Click(object sender, EventArgs e)
         {
 
@@ -63,7 +93,7 @@ namespace CoffeStore.HeThong.DangNhapHeThong
         }
 
 
-    private void pbLogo_Click(object sender, EventArgs e)
+        private void pbLogo_Click(object sender, EventArgs e)
         {
 
         }
@@ -92,5 +122,38 @@ namespace CoffeStore.HeThong.DangNhapHeThong
         {
 
         }
+        private void btnShowPassword_Click(object sender, EventArgs e)
+        {
+            if (txtEnterPassword.Text.Length > 0)
+            {
+               btnShowPassword.SendToBack();
+                btnHidePassword.BringToFront();
+                txtEnterPassword.UseSystemPasswordChar = false;
+            }
+        }
+
+        private void btnHidePassword_Click(object sender, EventArgs e)
+        {
+
+            btnShowPassword.BringToFront();
+            txtEnterPassword.UseSystemPasswordChar = true;
+        }
+        private void btnShowComfirmPassword_Click(object sender, EventArgs e)
+        {
+            if (txtConfirmPassword.Text.Length > 0)
+            {
+                btnHideComfirmPassword.BringToFront();
+                txtConfirmPassword.UseSystemPasswordChar = false;
+            }
+        }
+
+        private void btnHideComfirmPassword_Click(object sender, EventArgs e)
+        {
+
+            btnShowComfirmPassword.BringToFront();
+            txtConfirmPassword.UseSystemPasswordChar = true;
+        }
+
+       
     }
 }
