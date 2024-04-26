@@ -16,7 +16,7 @@ namespace CoffeStore.HeThong.NhanVienBanHang.GioHang
         {
             InitializeComponent();
             idNhanvien = userId;
-            //MessageBox.Show(idNhanvien);
+
         }
         public string idOrder { get;set ; }
         public UCGioHang()
@@ -86,7 +86,7 @@ namespace CoffeStore.HeThong.NhanVienBanHang.GioHang
                     Item.ImageLink = tenp;
 
                     // Sử dụng đường dẫn cục bộ để tạo Bitmap
-                   string localImagePath = newCartItem.Picture; // Giả sử Picture chứa đường dẫn cục bộ
+                  string localImagePath = newCartItem.Picture; // Giả sử Picture chứa đường dẫn cục bộ
                    using (var stream = new FileStream(localImagePath, FileMode.Open))
                    {
                         Item.Picture = Bitmap.FromStream(stream);

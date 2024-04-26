@@ -42,7 +42,7 @@
             // pbImage
             // 
             this.pbImage.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pbImage.Image = global::CoffeStore.Properties.Resources.drink;
+         //   this.pbImage.Image = global::CoffeStore.Properties.Resources.drink;
             this.pbImage.Location = new System.Drawing.Point(0, 0);
             this.pbImage.Name = "pbImage";
             this.pbImage.Size = new System.Drawing.Size(299, 203);

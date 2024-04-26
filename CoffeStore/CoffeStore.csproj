@@ -156,6 +156,18 @@
     <Compile Include="HeThong\NhanVienBanHang\GioHang\UCListOrder.Designer.cs">
       <DependentUpon>UCListOrder.cs</DependentUpon>
     </Compile>
+    <Compile Include="HeThong\NhanVienKho\QuanLyKho\UCNguyenLieu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HeThong\NhanVienKho\QuanLyKho\UCNguyenLieu.Designer.cs">
+      <DependentUpon>UCNguyenLieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\NhanVienKho\QuanLyKho\UCXuatNguyenLieu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HeThong\NhanVienKho\QuanLyKho\UCXuatNguyenLieu.Designer.cs">
+      <DependentUpon>UCXuatNguyenLieu.cs</DependentUpon>
+    </Compile>
     <Compile Include="HeThong\QuanLiCoffeStore\DoanhThu\UCDoanhThu.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -278,6 +290,12 @@
     <EmbeddedResource Include="HeThong\NhanVienBanHang\GioHang\UCListOrder.resx">
       <DependentUpon>UCListOrder.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\NhanVienKho\QuanLyKho\UCNguyenLieu.resx">
+      <DependentUpon>UCNguyenLieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\NhanVienKho\QuanLyKho\UCXuatNguyenLieu.resx">
+      <DependentUpon>UCXuatNguyenLieu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HeThong\QuanLiCoffeStore\DoanhThu\UCDoanhThu.resx">
       <DependentUpon>UCDoanhThu.cs</DependentUpon>
     </EmbeddedResource>
@@ -358,7 +376,6 @@
     <Folder Include="HeThong\NhanVienBanHang\DangXuat\" />
     <Folder Include="HeThong\NhanVienBanHang\QuanLiTaiKhoan\" />
     <Folder Include="HeThong\NhanVienKho\DangXuat\" />
-    <Folder Include="HeThong\NhanVienKho\QuanLiKho\" />
     <Folder Include="HeThong\NhanVienKho\QuanLiTaiKhoan\" />
     <Folder Include="HeThong\QuanLiCoffeStore\DangXuat\" />
     <Folder Include="HeThong\QuanLiCoffeStore\QuanLiKho\" />
