@@ -21,8 +21,7 @@ namespace CoffeStore.HeThong.QuanLiCoffeStore.QuanLiThucDon
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 txtPicture.Text = openFileDialog.FileName;
-                // Item2.Picture = new Bitmap(selectedImagePath);
-                // Item2.Picture = resizeImage(Item2.Picture, 255, 143);
+
             }
 
         }

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pbLogo = new System.Windows.Forms.PictureBox();
             this.lblPassword = new System.Windows.Forms.Label();
             this.lblUsername = new System.Windows.Forms.Label();
             this.lblDangNhap = new System.Windows.Forms.Label();
@@ -36,18 +35,11 @@
             this.btnPassword = new System.Windows.Forms.Button();
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
+            this.btnHide = new System.Windows.Forms.Button();
+            this.btnShow = new System.Windows.Forms.Button();
+            this.pbLogo = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pbLogo
-            // 
-            this.pbLogo.Image = global::CoffeStore.Properties.Resources.logo2;
-            this.pbLogo.Location = new System.Drawing.Point(222, 35);
-            this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(308, 296);
-            this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbLogo.TabIndex = 0;
-            this.pbLogo.TabStop = false;
             // 
             // lblPassword
             // 
@@ -129,14 +121,51 @@
             this.txtPassword.Size = new System.Drawing.Size(422, 45);
             this.txtPassword.TabIndex = 9;
             this.txtPassword.Text = "Mật khẩu";
+            this.txtPassword.TextChanged += new System.EventHandler(this.txtPassword_TextChanged);
             this.txtPassword.Enter += new System.EventHandler(this.txtPassword_Enter);
             this.txtPassword.Leave += new System.EventHandler(this.txtPassword_Leave);
+            // 
+            // btnHide
+            // 
+            this.btnHide.BackgroundImage = global::CoffeStore.Properties.Resources.Blind1;
+            this.btnHide.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnHide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHide.Location = new System.Drawing.Point(582, 617);
+            this.btnHide.Name = "btnHide";
+            this.btnHide.Size = new System.Drawing.Size(43, 45);
+            this.btnHide.TabIndex = 11;
+            this.btnHide.UseVisualStyleBackColor = true;
+            this.btnHide.Click += new System.EventHandler(this.btnHide_Click);
+            // 
+            // btnShow
+            // 
+            this.btnShow.BackColor = System.Drawing.Color.Transparent;
+            this.btnShow.BackgroundImage = global::CoffeStore.Properties.Resources.Eye;
+            this.btnShow.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnShow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnShow.Location = new System.Drawing.Point(583, 617);
+            this.btnShow.Name = "btnShow";
+            this.btnShow.Size = new System.Drawing.Size(43, 45);
+            this.btnShow.TabIndex = 10;
+            this.btnShow.UseVisualStyleBackColor = false;
+            this.btnShow.Click += new System.EventHandler(this.btnShow_Click);
+            // 
+            // pbLogo
+            // 
+            this.pbLogo.Image = global::CoffeStore.Properties.Resources.logo2;
+            this.pbLogo.Location = new System.Drawing.Point(222, 35);
+            this.pbLogo.Name = "pbLogo";
+            this.pbLogo.Size = new System.Drawing.Size(308, 296);
+            this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbLogo.TabIndex = 0;
+            this.pbLogo.TabStop = false;
             // 
             // UCLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Controls.Add(this.btnShow);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.btnPassword);
@@ -145,6 +174,7 @@
             this.Controls.Add(this.lblUsername);
             this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.pbLogo);
+            this.Controls.Add(this.btnHide);
             this.Name = "UCLogin";
             this.Size = new System.Drawing.Size(743, 1055);
             this.Load += new System.EventHandler(this.UCLogin_Load);
@@ -164,5 +194,7 @@
         private System.Windows.Forms.Button btnPassword;
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.Button btnShow;
+        private System.Windows.Forms.Button btnHide;
     }
 }

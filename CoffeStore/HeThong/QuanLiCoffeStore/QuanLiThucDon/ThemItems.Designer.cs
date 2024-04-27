@@ -49,7 +49,7 @@
             this.txtPicture.Location = new System.Drawing.Point(330, 104);
             this.txtPicture.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtPicture.Name = "txtPicture";
-            this.txtPicture.Size = new System.Drawing.Size(468, 44);
+
             this.txtPicture.TabIndex = 2;
             this.txtPicture.TextChanged += new System.EventHandler(this.txtPicture_TextChanged);
             // 

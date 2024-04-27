@@ -28,7 +28,7 @@ namespace CoffeStore.HeThong.NhanVienBanHang
         }
         private void Login_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Login login = new Login();
+          //  Login login = new Login();
             Application.Restart();
         }
 
@@ -64,7 +64,7 @@ namespace CoffeStore.HeThong.NhanVienBanHang
         private void btnQLTK_Click(object sender, EventArgs e)
         {
             pnlMain.Controls.Clear();
-            UCQLTK ucQLTK = new UCQLTK();
+            UCQLTK ucQLTK = new UCQLTK(this.userID);
             // Thêm UCGioHang vào pnlMain
             pnlMain.Controls.Add(ucQLTK);
 
@@ -82,7 +82,13 @@ namespace CoffeStore.HeThong.NhanVienBanHang
 
         private void btnDX_Click(object sender, EventArgs e)
         {
-
+            if (MessageBox.Show("Bạn có muốn đăng xuất không?", "Thông báo", MessageBoxButtons.OKCancel) == System.Windows.Forms.DialogResult.OK)
+            {
+                this.Hide();
+                //Application.Restart();
+                Login login = new Login();
+                login.ShowDialog();
+            }
         }
     }
 }

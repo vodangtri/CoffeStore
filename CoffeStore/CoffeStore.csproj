@@ -162,10 +162,18 @@
     <Compile Include="HeThong\QuanLiCoffeStore\DoanhThu\UCDoanhThu.Designer.cs">
       <DependentUpon>UCDoanhThu.cs</DependentUpon>
     </Compile>
-    <Compile Include="HeThong\QuanLiCoffeStore\QuanLiNhanVien\Form1.cs">
+    <Compile Include="HeThong\QuanLiCoffeStore\QuanLiNhanVien\AddInfoUser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HeThong\QuanLiCoffeStore\QuanLiNhanVien\Taotaikhoan.cs" />
+    <Compile Include="HeThong\QuanLiCoffeStore\QuanLiNhanVien\AddInfoUser.Designer.cs">
+      <DependentUpon>AddInfoUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\QuanLiCoffeStore\QuanLiNhanVien\UCInfoUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HeThong\QuanLiCoffeStore\QuanLiNhanVien\UCInfoUser.Designer.cs">
+      <DependentUpon>UCInfoUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="HeThong\QuanLiCoffeStore\QuanLiThucDon\ItemsQL.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -219,6 +227,12 @@
     </Compile>
     <Compile Include="HeThong\QuanLiCoffeStore\QuanLiThucDon\ThemItems.Designer.cs">
       <DependentUpon>ThemItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\QuanLiTaiKhoan\DoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeThong\QuanLiTaiKhoan\DoiMatKhau.Designer.cs">
+      <DependentUpon>DoiMatKhau.cs</DependentUpon>
     </Compile>
     <Compile Include="HeThong\QuanLiTaiKhoan\UCQLTK.cs">
       <SubType>UserControl</SubType>
@@ -285,8 +299,11 @@
     <EmbeddedResource Include="HeThong\QuanLiCoffeStore\DoanhThu\UCDoanhThu.resx">
       <DependentUpon>UCDoanhThu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HeThong\QuanLiCoffeStore\QuanLiNhanVien\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="HeThong\QuanLiCoffeStore\QuanLiNhanVien\AddInfoUser.resx">
+      <DependentUpon>AddInfoUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\QuanLiCoffeStore\QuanLiNhanVien\UCInfoUser.resx">
+      <DependentUpon>UCInfoUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HeThong\QuanLiCoffeStore\QuanLiThucDon\ItemsQL.resx">
       <DependentUpon>ItemsQL.cs</DependentUpon>
@@ -314,6 +331,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="HeThong\QuanLiCoffeStore\QuanLiThucDon\ThemItems.resx">
       <DependentUpon>ThemItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\QuanLiTaiKhoan\DoiMatKhau.resx">
+      <DependentUpon>DoiMatKhau.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HeThong\QuanLiTaiKhoan\UCQLTK.resx">
       <DependentUpon>UCQLTK.cs</DependentUpon>
@@ -355,10 +375,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\img\drink.jpg" />
+    <None Include="Resources\arrow.png" />
     <Content Include="Resources\background2.jpg" />
     <None Include="Resources\logo_koBackground.png" />
     <None Include="Resources\logo21.jpg" />
     <None Include="Resources\background21.jpg" />
+    <None Include="Resources\Eye.png" />
+    <None Include="Resources\Blind.png" />
+    <None Include="Resources\Blind1.png" />
     <Content Include="Resources\logo2.jpg" />
   </ItemGroup>
   <ItemGroup>
