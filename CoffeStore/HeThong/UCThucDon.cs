@@ -17,8 +17,8 @@ namespace CoffeStore.HeThong
         }
 
 
-
       /*  public Image resizeImage(Image image, int width, int height)
+>>>>>>> 8829bb4f617d1418e51ef37a5f25b939dad9faa4
         {
             var destRect = new Rectangle(0, 0, width, height);
             var destImage = new Bitmap(width, height);
@@ -81,12 +81,13 @@ namespace CoffeStore.HeThong
                             Item1.ImageLink = tenp;
 
                             // Sử dụng đường dẫn cục bộ để tạo Bitmap
-                            string localImagePath = newMenuItem.Picture; // Giả sử Picture chứa đường dẫn cục bộ
+                           string localImagePath = newMenuItem.Picture; // Giả sử Picture chứa đường dẫn cục bộ
                             using (var stream = new FileStream(localImagePath, FileMode.Open))
                             {
                                 Item1.Picture = Bitmap.FromStream(stream);
-                                //   Item1.Picture = resizeImage(Item1.Picture, 255, 143);
+
                             }
+
 
                             Item1.ID = newMenuItem.ID;
                             Item1.Title = newMenuItem.NameItems;
@@ -107,8 +108,9 @@ namespace CoffeStore.HeThong
                             Item2.ImageLink = tenp;
 
                             // Sử dụng đường dẫn cục bộ để tạo Bitmap
-                              string localImagePath = newMenuItem.Picture; // Giả sử Picture chứa đường dẫn cục bộ
-                              using (var stream = new FileStream(localImagePath, FileMode.Open))
+
+                            string localImagePath = newMenuItem.Picture; // Giả sử Picture chứa đường dẫn cục bộ
+                            using (var stream = new FileStream(localImagePath, FileMode.Open))
                               {
                                   Item2.Picture = Bitmap.FromStream(stream);
                                 //  Item2.Picture = resizeImage(Item2.Picture, 255, 143);

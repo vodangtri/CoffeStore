@@ -20,7 +20,8 @@ namespace CoffeStore
         {
             if (MessageBox.Show("Bạn có thật sự muốn thoát chương trình?", "Thông báo", MessageBoxButtons.OKCancel) != System.Windows.Forms.DialogResult.OK)
             {
-                e.Cancel = true;
+              //  e.Cancel = true;
+                this.Close();
             }
         }
         private void pnlHandle_Paint(object sender, PaintEventArgs e)

@@ -126,7 +126,7 @@ namespace CoffeStore.HeThong.DangNhapHeThong
         {
             if (txtEnterPassword.Text.Length > 0)
             {
-                btnShowPassword.SendToBack();
+               btnShowPassword.SendToBack();
                 btnHidePassword.BringToFront();
                 txtEnterPassword.UseSystemPasswordChar = false;
             }

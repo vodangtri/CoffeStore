@@ -124,6 +124,7 @@
             this.btnDX.TabIndex = 2;
             this.btnDX.Text = "Đăng xuất";
             this.btnDX.UseVisualStyleBackColor = false;
+            this.btnDX.Click += new System.EventHandler(this.btnDX_Click);
             // 
             // btnTD
             // 

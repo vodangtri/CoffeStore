@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             this.btnDelete = new System.Windows.Forms.Button();
-            this.btnI = new System.Windows.Forms.Button();
+            this.btnPrint = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.lblId = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.lblDay = new System.Windows.Forms.Label();
             this.lblTime = new System.Windows.Forms.Label();
+            this.lblDay = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lblId = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -53,16 +53,16 @@
             this.btnDelete.Text = "Xóa";
             this.btnDelete.UseVisualStyleBackColor = false;
             // 
-            // btnI
+            // btnPrint
             // 
-            this.btnI.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.btnI.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnI.Location = new System.Drawing.Point(1046, 706);
-            this.btnI.Name = "btnI";
-            this.btnI.Size = new System.Drawing.Size(142, 54);
-            this.btnI.TabIndex = 1;
-            this.btnI.Text = "In";
-            this.btnI.UseVisualStyleBackColor = false;
+            this.btnPrint.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.btnPrint.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPrint.Location = new System.Drawing.Point(1046, 706);
+            this.btnPrint.Name = "btnPrint";
+            this.btnPrint.Size = new System.Drawing.Size(142, 54);
+            this.btnPrint.TabIndex = 1;
+            this.btnPrint.Text = "In";
+            this.btnPrint.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
@@ -74,51 +74,29 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.dataGridView1);
             this.panel1.Controls.Add(this.btnDelete);
-            this.panel1.Controls.Add(this.btnI);
+            this.panel1.Controls.Add(this.btnPrint);
             this.panel1.Location = new System.Drawing.Point(212, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1241, 777);
             this.panel1.TabIndex = 2;
             // 
-            // dataGridView1
+            // lblTime
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(108, 149);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(1014, 532);
-            this.dataGridView1.TabIndex = 2;
+            this.lblTime.AutoSize = true;
+            this.lblTime.Location = new System.Drawing.Point(1008, 103);
+            this.lblTime.Name = "lblTime";
+            this.lblTime.Size = new System.Drawing.Size(51, 20);
+            this.lblTime.TabIndex = 8;
+            this.lblTime.Text = "label6";
             // 
-            // label1
+            // lblDay
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(356, 35);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(618, 46);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Danh sách nguyên liệu xuất kho";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(159, 105);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(55, 29);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Mã:";
-            // 
-            // lblId
-            // 
-            this.lblId.AutoSize = true;
-            this.lblId.Location = new System.Drawing.Point(244, 112);
-            this.lblId.Name = "lblId";
-            this.lblId.Size = new System.Drawing.Size(51, 20);
-            this.lblId.TabIndex = 5;
-            this.lblId.Text = "label3";
+            this.lblDay.AutoSize = true;
+            this.lblDay.Location = new System.Drawing.Point(879, 105);
+            this.lblDay.Name = "lblDay";
+            this.lblDay.Size = new System.Drawing.Size(51, 20);
+            this.lblDay.TabIndex = 7;
+            this.lblDay.Text = "label5";
             // 
             // label4
             // 
@@ -130,23 +108,45 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "Thời gian:";
             // 
-            // lblDay
+            // lblId
             // 
-            this.lblDay.AutoSize = true;
-            this.lblDay.Location = new System.Drawing.Point(879, 105);
-            this.lblDay.Name = "lblDay";
-            this.lblDay.Size = new System.Drawing.Size(51, 20);
-            this.lblDay.TabIndex = 7;
-            this.lblDay.Text = "label5";
+            this.lblId.AutoSize = true;
+            this.lblId.Location = new System.Drawing.Point(244, 112);
+            this.lblId.Name = "lblId";
+            this.lblId.Size = new System.Drawing.Size(51, 20);
+            this.lblId.TabIndex = 5;
+            this.lblId.Text = "label3";
             // 
-            // lblTime
+            // label2
             // 
-            this.lblTime.AutoSize = true;
-            this.lblTime.Location = new System.Drawing.Point(1008, 103);
-            this.lblTime.Name = "lblTime";
-            this.lblTime.Size = new System.Drawing.Size(51, 20);
-            this.lblTime.TabIndex = 8;
-            this.lblTime.Text = "label6";
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(159, 105);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(55, 29);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Mã:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(356, 35);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(618, 46);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Danh sách nguyên liệu xuất kho";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(104, 146);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 62;
+            this.dataGridView1.RowTemplate.Height = 28;
+            this.dataGridView1.Size = new System.Drawing.Size(1014, 532);
+            this.dataGridView1.TabIndex = 2;
             // 
             // UCXuatNguyenLieu
             // 
@@ -167,7 +167,7 @@
         #endregion
 
         private System.Windows.Forms.Button btnDelete;
-        private System.Windows.Forms.Button btnI;
+        private System.Windows.Forms.Button btnPrint;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label lblDay;

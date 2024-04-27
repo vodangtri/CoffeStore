@@ -243,6 +243,12 @@
     <Compile Include="HeThong\QuanLiCoffeStore\QuanLiThucDon\ThemItems.Designer.cs">
       <DependentUpon>ThemItems.cs</DependentUpon>
     </Compile>
+    <Compile Include="HeThong\QuanLiTaiKhoan\DoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeThong\QuanLiTaiKhoan\DoiMatKhau.Designer.cs">
+      <DependentUpon>DoiMatKhau.cs</DependentUpon>
+    </Compile>
     <Compile Include="HeThong\QuanLiTaiKhoan\UCQLTK.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -349,6 +355,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="HeThong\QuanLiCoffeStore\QuanLiThucDon\ThemItems.resx">
       <DependentUpon>ThemItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\QuanLiTaiKhoan\DoiMatKhau.resx">
+      <DependentUpon>DoiMatKhau.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HeThong\QuanLiTaiKhoan\UCQLTK.resx">
       <DependentUpon>UCQLTK.cs</DependentUpon>

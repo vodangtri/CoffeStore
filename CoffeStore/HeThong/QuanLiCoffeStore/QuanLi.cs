@@ -19,7 +19,7 @@ namespace CoffeStore.HeThong.QuanLiCoffeStore
 
         private void QuanLi_Load(object sender, EventArgs e)
         {
-            UserControl newControl = new UCQLTK();
+            UserControl newControl = new UCQLTK(userID);
             pnlMain.Controls.Add(newControl);
 
         }
@@ -100,7 +100,7 @@ namespace CoffeStore.HeThong.QuanLiCoffeStore
         private void btnQLTK_Click(object sender, EventArgs e)
         {
             pnlMain.Controls.Clear();
-            UCQLTK ucQLTK = new UCQLTK();
+            UCQLTK ucQLTK = new UCQLTK(userID);
             pnlMain.Controls.Add(ucQLTK);
 
         }
@@ -120,6 +120,15 @@ namespace CoffeStore.HeThong.QuanLiCoffeStore
             pnlMain.Controls.Clear();
             UserControl newControl = new UCDoanhThu();
             pnlMain.Controls.Add(newControl);
+        }
+
+        private void btnDX_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Bạn có muốn đăng xuất không?", "Thông báo", MessageBoxButtons.OKCancel) == System.Windows.Forms.DialogResult.OK)
+            {
+                this.Hide();
+                Application.Restart();
+            }
         }
     }
 }
