@@ -14,9 +14,17 @@ namespace CoffeStore.DAL
     internal class DatabaseAccess
     {
 
+<<<<<<< HEAD
 
         private string connectionString = @"Data Source=VIET;Initial Catalog=CoffeStore;Integrated Security=True;MultipleActiveResultSets=True;";
 
+=======
+<<<<<<< HEAD
+        private string connectionString = @"Data Source=DESKTOP-4NBI3JN\SQLEXPRESS;Initial Catalog=CoffeStore;Integrated Security=True;MultipleActiveResultSets=True;";
+=======
+        private string connectionString = @"Data Source=LAPTOP-3905GG6Q;Initial Catalog=CoffeStore;Integrated Security=True;MultipleActiveResultSets=True;";
+>>>>>>> 4795e1e7886a8c478cb5c3980d5cd83a2dcc6e86
+>>>>>>> cc0649176df20b6ad5e9f3ddeb83766ab282ec78
 
 
         public string checkLoginData_DA_DAL(User tk)

@@ -42,15 +42,16 @@
             this.btnTTOnline = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvListOrder)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(247, 122);
+            this.label1.Location = new System.Drawing.Point(278, 152);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 29);
+            this.label1.Size = new System.Drawing.Size(64, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "Mã:";
             // 
@@ -58,9 +59,9 @@
             // 
             this.lblDay.AutoSize = true;
             this.lblDay.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDay.Location = new System.Drawing.Point(815, 122);
+            this.lblDay.Location = new System.Drawing.Point(917, 152);
             this.lblDay.Name = "lblDay";
-            this.lblDay.Size = new System.Drawing.Size(79, 29);
+            this.lblDay.Size = new System.Drawing.Size(92, 32);
             this.lblDay.TabIndex = 3;
             this.lblDay.Text = "label4";
             this.lblDay.Click += new System.EventHandler(this.lblDay_Click);
@@ -69,19 +70,20 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(637, 122);
+            this.label7.Location = new System.Drawing.Point(717, 152);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(130, 29);
+            this.label7.Size = new System.Drawing.Size(150, 32);
             this.label7.TabIndex = 6;
             this.label7.Text = "Thời gian:";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // lblTime
             // 
             this.lblTime.AutoSize = true;
             this.lblTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTime.Location = new System.Drawing.Point(981, 122);
+            this.lblTime.Location = new System.Drawing.Point(984, 137);
             this.lblTime.Name = "lblTime";
-            this.lblTime.Size = new System.Drawing.Size(79, 29);
+            this.lblTime.Size = new System.Drawing.Size(92, 32);
             this.lblTime.TabIndex = 7;
             this.lblTime.Text = "label8";
             this.lblTime.Click += new System.EventHandler(this.lblTime_Click);
@@ -90,9 +92,9 @@
             // 
             this.lblId.AutoSize = true;
             this.lblId.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblId.Location = new System.Drawing.Point(320, 122);
+            this.lblId.Location = new System.Drawing.Point(360, 152);
             this.lblId.Name = "lblId";
-            this.lblId.Size = new System.Drawing.Size(59, 29);
+            this.lblId.Size = new System.Drawing.Size(67, 32);
             this.lblId.TabIndex = 8;
             this.lblId.Text = "lblId";
             this.lblId.Click += new System.EventHandler(this.lblId_Click);
@@ -102,11 +104,11 @@
             this.dtgvListOrder.BackgroundColor = System.Drawing.Color.White;
             this.dtgvListOrder.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgvListOrder.GridColor = System.Drawing.Color.White;
-            this.dtgvListOrder.Location = new System.Drawing.Point(246, 172);
-            this.dtgvListOrder.Margin = new System.Windows.Forms.Padding(6);
+            this.dtgvListOrder.Location = new System.Drawing.Point(277, 215);
+            this.dtgvListOrder.Margin = new System.Windows.Forms.Padding(7, 8, 7, 8);
             this.dtgvListOrder.Name = "dtgvListOrder";
             this.dtgvListOrder.RowHeadersWidth = 62;
-            this.dtgvListOrder.Size = new System.Drawing.Size(752, 590);
+            this.dtgvListOrder.Size = new System.Drawing.Size(846, 738);
             this.dtgvListOrder.TabIndex = 9;
             this.dtgvListOrder.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvListOrder_CellContentClick);
             // 
@@ -114,18 +116,19 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(429, 25);
+            this.label2.Location = new System.Drawing.Point(483, 31);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(381, 69);
+            this.label2.Size = new System.Drawing.Size(456, 82);
             this.label2.TabIndex = 10;
             this.label2.Text = "Đơn đặt món";
             // 
             // btnDelete
             // 
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Location = new System.Drawing.Point(246, 773);
+            this.btnDelete.Location = new System.Drawing.Point(277, 966);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(122, 46);
+            this.btnDelete.Size = new System.Drawing.Size(137, 58);
             this.btnDelete.TabIndex = 12;
             this.btnDelete.Text = "Xóa";
             this.btnDelete.UseVisualStyleBackColor = true;
@@ -134,9 +137,10 @@
             // btnThanhToan
             // 
             this.btnThanhToan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThanhToan.Location = new System.Drawing.Point(741, 773);
+            this.btnThanhToan.Location = new System.Drawing.Point(834, 966);
+            this.btnThanhToan.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnThanhToan.Name = "btnThanhToan";
-            this.btnThanhToan.Size = new System.Drawing.Size(257, 48);
+            this.btnThanhToan.Size = new System.Drawing.Size(289, 60);
             this.btnThanhToan.TabIndex = 13;
             this.btnThanhToan.Text = "Thanh toán trực tiếp";
             this.btnThanhToan.UseVisualStyleBackColor = true;
@@ -145,9 +149,10 @@
             // btnIn
             // 
             this.btnIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIn.Location = new System.Drawing.Point(374, 773);
+            this.btnIn.Location = new System.Drawing.Point(421, 966);
+            this.btnIn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnIn.Name = "btnIn";
-            this.btnIn.Size = new System.Drawing.Size(122, 46);
+            this.btnIn.Size = new System.Drawing.Size(137, 58);
             this.btnIn.TabIndex = 14;
             this.btnIn.Text = "In";
             this.btnIn.UseVisualStyleBackColor = true;
@@ -156,9 +161,10 @@
             // btnTTOnline
             // 
             this.btnTTOnline.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTTOnline.Location = new System.Drawing.Point(502, 773);
+            this.btnTTOnline.Location = new System.Drawing.Point(565, 966);
+            this.btnTTOnline.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnTTOnline.Name = "btnTTOnline";
-            this.btnTTOnline.Size = new System.Drawing.Size(223, 48);
+            this.btnTTOnline.Size = new System.Drawing.Size(251, 60);
             this.btnTTOnline.TabIndex = 15;
             this.btnTTOnline.Text = "Thanh toán online";
             this.btnTTOnline.UseVisualStyleBackColor = true;
@@ -166,19 +172,23 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.lblTime);
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.groupBox1.Location = new System.Drawing.Point(110, 12);
+            this.groupBox1.Location = new System.Drawing.Point(124, 15);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1028, 830);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox1.Size = new System.Drawing.Size(1156, 1038);
             this.groupBox1.TabIndex = 16;
             this.groupBox1.TabStop = false;
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // Bill
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(1256, 1055);
+            this.ClientSize = new System.Drawing.Size(1417, 1050);
             this.Controls.Add(this.btnTTOnline);
             this.Controls.Add(this.btnIn);
             this.Controls.Add(this.btnThanhToan);
@@ -186,17 +196,19 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dtgvListOrder);
             this.Controls.Add(this.lblId);
-            this.Controls.Add(this.lblTime);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.lblDay);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Bill";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bill";
             this.Load += new System.EventHandler(this.Bill_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvListOrder)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

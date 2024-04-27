@@ -46,9 +46,10 @@
             this.btnXem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXem.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnXem.Location = new System.Drawing.Point(1140, 82);
+            this.btnXem.Location = new System.Drawing.Point(1282, 102);
+            this.btnXem.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnXem.Name = "btnXem";
-            this.btnXem.Size = new System.Drawing.Size(110, 40);
+            this.btnXem.Size = new System.Drawing.Size(124, 50);
             this.btnXem.TabIndex = 0;
             this.btnXem.Text = "Xem";
             this.btnXem.UseVisualStyleBackColor = false;
@@ -61,9 +62,10 @@
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnCancel.Location = new System.Drawing.Point(1268, 82);
+            this.btnCancel.Location = new System.Drawing.Point(1426, 102);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(116, 40);
+            this.btnCancel.Size = new System.Drawing.Size(130, 50);
             this.btnCancel.TabIndex = 2;
             this.btnCancel.Text = "Hủy";
             this.btnCancel.UseVisualStyleBackColor = false;
@@ -73,9 +75,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, 9);
+            this.label1.Location = new System.Drawing.Point(3, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 36);
+            this.label1.Size = new System.Drawing.Size(80, 40);
             this.label1.TabIndex = 3;
             this.label1.Text = "Mã:";
             // 
@@ -83,9 +85,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(7, 51);
+            this.label2.Location = new System.Drawing.Point(8, 64);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(114, 29);
+            this.label2.Size = new System.Drawing.Size(134, 32);
             this.label2.TabIndex = 4;
             this.label2.Text = "Ngày lập:";
             // 
@@ -93,9 +95,9 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(7, 93);
+            this.label3.Location = new System.Drawing.Point(8, 116);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(120, 29);
+            this.label3.Size = new System.Drawing.Size(140, 32);
             this.label3.TabIndex = 5;
             this.label3.Text = "Thời gian:";
             // 
@@ -103,9 +105,9 @@
             // 
             this.lblIdOrder.AutoSize = true;
             this.lblIdOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIdOrder.Location = new System.Drawing.Point(83, 9);
+            this.lblIdOrder.Location = new System.Drawing.Point(89, 11);
             this.lblIdOrder.Name = "lblIdOrder";
-            this.lblIdOrder.Size = new System.Drawing.Size(98, 32);
+            this.lblIdOrder.Size = new System.Drawing.Size(109, 38);
             this.lblIdOrder.TabIndex = 6;
             this.lblIdOrder.Text = "label4";
             // 
@@ -113,9 +115,9 @@
             // 
             this.lblThoiGian.AutoSize = true;
             this.lblThoiGian.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblThoiGian.Location = new System.Drawing.Point(153, 93);
+            this.lblThoiGian.Location = new System.Drawing.Point(172, 116);
             this.lblThoiGian.Name = "lblThoiGian";
-            this.lblThoiGian.Size = new System.Drawing.Size(79, 29);
+            this.lblThoiGian.Size = new System.Drawing.Size(92, 32);
             this.lblThoiGian.TabIndex = 8;
             this.lblThoiGian.Text = "label6";
             // 
@@ -123,9 +125,9 @@
             // 
             this.lblNgayLap.AutoSize = true;
             this.lblNgayLap.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNgayLap.Location = new System.Drawing.Point(139, 51);
+            this.lblNgayLap.Location = new System.Drawing.Point(148, 64);
             this.lblNgayLap.Name = "lblNgayLap";
-            this.lblNgayLap.Size = new System.Drawing.Size(79, 29);
+            this.lblNgayLap.Size = new System.Drawing.Size(92, 32);
             this.lblNgayLap.TabIndex = 9;
             this.lblNgayLap.Text = "label7";
             // 
@@ -136,9 +138,10 @@
             this.btnBonus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBonus.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBonus.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnBonus.Location = new System.Drawing.Point(1010, 82);
+            this.btnBonus.Location = new System.Drawing.Point(1136, 102);
+            this.btnBonus.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnBonus.Name = "btnBonus";
-            this.btnBonus.Size = new System.Drawing.Size(110, 40);
+            this.btnBonus.Size = new System.Drawing.Size(124, 50);
             this.btnBonus.TabIndex = 10;
             this.btnBonus.Text = "Thêm";
             this.btnBonus.UseVisualStyleBackColor = false;
@@ -146,7 +149,7 @@
             // 
             // UCBill
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Info;
             this.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -160,8 +163,9 @@
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnXem);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "UCBill";
-            this.Size = new System.Drawing.Size(1399, 128);
+            this.Size = new System.Drawing.Size(1574, 160);
             this.Load += new System.EventHandler(this.UCBill_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

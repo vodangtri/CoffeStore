@@ -48,18 +48,20 @@
             // 
             this.pnlMain.AutoScroll = true;
             this.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlMain.Location = new System.Drawing.Point(315, 0);
+            this.pnlMain.Location = new System.Drawing.Point(354, 0);
+            this.pnlMain.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pnlMain.Name = "pnlMain";
-            this.pnlMain.Size = new System.Drawing.Size(1609, 1055);
+            this.pnlMain.Size = new System.Drawing.Size(1570, 1050);
             this.pnlMain.TabIndex = 2;
             this.pnlMain.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlThucDon_Paint);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::CoffeStore.Properties.Resources.logo_koBackground;
-            this.pictureBox1.Location = new System.Drawing.Point(59, 36);
+            this.pictureBox1.Location = new System.Drawing.Point(66, 45);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(194, 178);
+            this.pictureBox1.Size = new System.Drawing.Size(218, 222);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -71,8 +73,9 @@
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(315, 1055);
+            this.panel1.Size = new System.Drawing.Size(354, 1050);
             this.panel1.TabIndex = 1;
             // 
             // pnlSetting
@@ -85,8 +88,9 @@
             this.pnlSetting.Controls.Add(this.pbLogo);
             this.pnlSetting.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlSetting.Location = new System.Drawing.Point(0, 0);
+            this.pnlSetting.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pnlSetting.Name = "pnlSetting";
-            this.pnlSetting.Size = new System.Drawing.Size(315, 1055);
+            this.pnlSetting.Size = new System.Drawing.Size(354, 1050);
             this.pnlSetting.TabIndex = 3;
             // 
             // btnQLTK
@@ -95,9 +99,10 @@
             this.btnQLTK.FlatAppearance.BorderSize = 0;
             this.btnQLTK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnQLTK.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnQLTK.Location = new System.Drawing.Point(3, 885);
+            this.btnQLTK.Location = new System.Drawing.Point(3, 1106);
+            this.btnQLTK.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnQLTK.Name = "btnQLTK";
-            this.btnQLTK.Size = new System.Drawing.Size(309, 82);
+            this.btnQLTK.Size = new System.Drawing.Size(348, 102);
             this.btnQLTK.TabIndex = 6;
             this.btnQLTK.Text = "Quản lí tài khoản";
             this.btnQLTK.UseVisualStyleBackColor = false;
@@ -109,9 +114,10 @@
             this.btnGioHang.FlatAppearance.BorderSize = 0;
             this.btnGioHang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGioHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGioHang.Location = new System.Drawing.Point(3, 369);
+            this.btnGioHang.Location = new System.Drawing.Point(3, 461);
+            this.btnGioHang.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnGioHang.Name = "btnGioHang";
-            this.btnGioHang.Size = new System.Drawing.Size(315, 82);
+            this.btnGioHang.Size = new System.Drawing.Size(354, 102);
             this.btnGioHang.TabIndex = 4;
             this.btnGioHang.Text = "Giỏ hàng";
             this.btnGioHang.UseVisualStyleBackColor = false;
@@ -123,9 +129,10 @@
             this.btnDX.FlatAppearance.BorderSize = 0;
             this.btnDX.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDX.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDX.Location = new System.Drawing.Point(0, 973);
+            this.btnDX.Location = new System.Drawing.Point(0, 1216);
+            this.btnDX.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnDX.Name = "btnDX";
-            this.btnDX.Size = new System.Drawing.Size(315, 82);
+            this.btnDX.Size = new System.Drawing.Size(354, 102);
             this.btnDX.TabIndex = 2;
             this.btnDX.Text = "Đăng xuất";
             this.btnDX.UseVisualStyleBackColor = false;
@@ -138,9 +145,10 @@
             this.btnDatMon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDatMon.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDatMon.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnDatMon.Location = new System.Drawing.Point(0, 281);
+            this.btnDatMon.Location = new System.Drawing.Point(0, 351);
+            this.btnDatMon.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnDatMon.Name = "btnDatMon";
-            this.btnDatMon.Size = new System.Drawing.Size(315, 82);
+            this.btnDatMon.Size = new System.Drawing.Size(354, 102);
             this.btnDatMon.TabIndex = 0;
             this.btnDatMon.Text = "Hệ thống đặt món";
             this.btnDatMon.UseVisualStyleBackColor = false;
@@ -149,22 +157,24 @@
             // pbLogo
             // 
             this.pbLogo.Image = global::CoffeStore.Properties.Resources.logo_koBackground;
-            this.pbLogo.Location = new System.Drawing.Point(59, 36);
+            this.pbLogo.Location = new System.Drawing.Point(66, 45);
+            this.pbLogo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(194, 178);
+            this.pbLogo.Size = new System.Drawing.Size(218, 222);
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbLogo.TabIndex = 1;
             this.pbLogo.TabStop = false;
             // 
             // BanHang
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.ClientSize = new System.Drawing.Size(1924, 1055);
+            this.ClientSize = new System.Drawing.Size(1924, 1050);
             this.Controls.Add(this.pnlMain);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "BanHang";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BanHang";
