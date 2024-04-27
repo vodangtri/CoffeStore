@@ -42,6 +42,7 @@
             this.btnTTOnline = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvListOrder)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -80,7 +81,7 @@
             // 
             this.lblTime.AutoSize = true;
             this.lblTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTime.Location = new System.Drawing.Point(1104, 152);
+            this.lblTime.Location = new System.Drawing.Point(984, 137);
             this.lblTime.Name = "lblTime";
             this.lblTime.Size = new System.Drawing.Size(92, 32);
             this.lblTime.TabIndex = 7;
@@ -171,6 +172,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.lblTime);
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox1.Location = new System.Drawing.Point(124, 15);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -179,13 +181,14 @@
             this.groupBox1.Size = new System.Drawing.Size(1156, 1038);
             this.groupBox1.TabIndex = 16;
             this.groupBox1.TabStop = false;
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // Bill
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(1413, 1050);
+            this.ClientSize = new System.Drawing.Size(1417, 1050);
             this.Controls.Add(this.btnTTOnline);
             this.Controls.Add(this.btnIn);
             this.Controls.Add(this.btnThanhToan);
@@ -193,7 +196,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dtgvListOrder);
             this.Controls.Add(this.lblId);
-            this.Controls.Add(this.lblTime);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.lblDay);
             this.Controls.Add(this.label1);
@@ -205,6 +207,8 @@
             this.Text = "Bill";
             this.Load += new System.EventHandler(this.Bill_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvListOrder)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

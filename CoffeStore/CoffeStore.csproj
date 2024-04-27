@@ -156,6 +156,21 @@
     <Compile Include="HeThong\NhanVienBanHang\GioHang\UCListOrder.Designer.cs">
       <DependentUpon>UCListOrder.cs</DependentUpon>
     </Compile>
+    <Compile Include="HeThong\NhanVienKho\QuanLyKho\AddItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeThong\NhanVienKho\QuanLyKho\ChangeItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeThong\NhanVienKho\QuanLyKho\ChangeItems.Designer.cs">
+      <DependentUpon>ChangeItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeThong\NhanVienKho\QuanLyKho\DeleteItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeThong\NhanVienKho\QuanLyKho\DeleteItems.Designer.cs">
+      <DependentUpon>DeleteItems.cs</DependentUpon>
+    </Compile>
     <Compile Include="HeThong\NhanVienKho\QuanLyKho\UCNguyenLieu.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -290,6 +305,15 @@
     <EmbeddedResource Include="HeThong\NhanVienBanHang\GioHang\UCListOrder.resx">
       <DependentUpon>UCListOrder.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\NhanVienKho\QuanLyKho\AddItems.resx">
+      <DependentUpon>AddItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\NhanVienKho\QuanLyKho\ChangeItems.resx">
+      <DependentUpon>ChangeItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\NhanVienKho\QuanLyKho\DeleteItems.resx">
+      <DependentUpon>DeleteItems.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HeThong\NhanVienKho\QuanLyKho\UCNguyenLieu.resx">
       <DependentUpon>UCNguyenLieu.cs</DependentUpon>
     </EmbeddedResource>
@@ -366,10 +390,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\img\drink.jpg" />
+    <None Include="Resources\arrow.png" />
     <Content Include="Resources\background2.jpg" />
     <None Include="Resources\logo_koBackground.png" />
     <None Include="Resources\logo21.jpg" />
     <None Include="Resources\background21.jpg" />
+    <None Include="Resources\Eye.png" />
+    <None Include="Resources\Blind.png" />
+    <None Include="Resources\Blind1.png" />
     <Content Include="Resources\logo2.jpg" />
   </ItemGroup>
   <ItemGroup>

@@ -10,29 +10,24 @@ using System.Windows.Forms;
 
 namespace CoffeStore.HeThong.NhanVienKho.QuanLyKho
 {
-    public partial class UCNguyenLieu : UserControl
+    public partial class ChangeItems : Form
     {
-        public UCNguyenLieu()
+        public ChangeItems()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void UCNguyenLieu_Load(object sender, EventArgs e)
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void btnDeleteItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void label7_Click(object sender, EventArgs e)
         {
 
         }

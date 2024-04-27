@@ -28,7 +28,7 @@ namespace CoffeStore.HeThong.NhanVienBanHang
         }
         private void Login_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Login login = new Login();
+          //  Login login = new Login();
             Application.Restart();
         }
 

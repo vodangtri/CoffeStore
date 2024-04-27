@@ -365,3 +365,7 @@ C:\Users\ADMIN\Desktop\CoffeeStore\CoffeStore\CoffeStore\obj\Debug\CoffeStore.ex
 C:\Users\ADMIN\Desktop\CoffeeStore\CoffeStore\CoffeStore\obj\Debug\CoffeStore.pdb
 C:\Users\ADMIN\Desktop\CoffeeStore\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienKho.QuanLyKho.UCNguyenLieu.resources
 C:\Users\ADMIN\Desktop\CoffeeStore\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienKho.QuanLyKho.UCXuatNguyenLieu.resources
+C:\Users\ADMIN\Desktop\CoffeeStore\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienKho.QuanLyKho.UCAddItems.resources
+C:\Users\ADMIN\Desktop\CoffeeStore\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienKho.QuanLyKho.AddItems.resources
+C:\Users\ADMIN\Desktop\CoffeeStore\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienKho.QuanLyKho.ChangeItems.resources
+C:\Users\ADMIN\Desktop\CoffeeStore\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.NhanVienKho.QuanLyKho.DeleteItems.resources

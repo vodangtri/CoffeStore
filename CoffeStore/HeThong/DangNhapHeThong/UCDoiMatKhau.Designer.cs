@@ -35,6 +35,10 @@
             this.txtConfirmPassword = new System.Windows.Forms.TextBox();
             this.lblEnterPassword = new System.Windows.Forms.Label();
             this.lblConfirmPassword = new System.Windows.Forms.Label();
+            this.btnShowPassword = new System.Windows.Forms.Button();
+            this.btnHidePassword = new System.Windows.Forms.Button();
+            this.btnShowComfirmPassword = new System.Windows.Forms.Button();
+            this.btnHideComfirmPassword = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -47,6 +51,8 @@
             this.txtEnterPassword.Size = new System.Drawing.Size(422, 38);
             this.txtEnterPassword.TabIndex = 30;
             this.txtEnterPassword.TextChanged += new System.EventHandler(this.txtEnterPassword_TextChanged);
+            this.txtEnterPassword.Enter += new System.EventHandler(this.txtEnterPassword_Enter);
+            this.txtEnterPassword.Leave += new System.EventHandler(this.txtEnterPassword_Leave);
             // 
             // btnTieptuc
             // 
@@ -92,6 +98,8 @@
             this.txtConfirmPassword.Size = new System.Drawing.Size(422, 38);
             this.txtConfirmPassword.TabIndex = 32;
             this.txtConfirmPassword.TextChanged += new System.EventHandler(this.txtConfirmPassword_TextChanged);
+            this.txtConfirmPassword.Enter += new System.EventHandler(this.txtConfirmPassword_Enter);
+            this.txtConfirmPassword.Leave += new System.EventHandler(this.txtConfirmPassword_Enter);
             // 
             // lblEnterPassword
             // 
@@ -115,11 +123,65 @@
             this.lblConfirmPassword.Text = "Xác nhận mật khẩu";
             this.lblConfirmPassword.Click += new System.EventHandler(this.lblConfirmPassword_Click);
             // 
+            // btnShowPassword
+            // 
+            this.btnShowPassword.BackColor = System.Drawing.Color.Transparent;
+            this.btnShowPassword.BackgroundImage = global::CoffeStore.Properties.Resources.Eye;
+            this.btnShowPassword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnShowPassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnShowPassword.Location = new System.Drawing.Point(574, 547);
+            this.btnShowPassword.Name = "btnShowPassword";
+            this.btnShowPassword.Size = new System.Drawing.Size(33, 39);
+            this.btnShowPassword.TabIndex = 35;
+            this.btnShowPassword.UseVisualStyleBackColor = false;
+            this.btnShowPassword.Click += new System.EventHandler(this.btnShowPassword_Click);
+            // 
+            // btnHidePassword
+            // 
+            this.btnHidePassword.BackgroundImage = global::CoffeStore.Properties.Resources.Blind1;
+            this.btnHidePassword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnHidePassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHidePassword.Location = new System.Drawing.Point(574, 547);
+            this.btnHidePassword.Name = "btnHidePassword";
+            this.btnHidePassword.Size = new System.Drawing.Size(33, 39);
+            this.btnHidePassword.TabIndex = 36;
+            this.btnHidePassword.UseVisualStyleBackColor = true;
+            this.btnHidePassword.Click += new System.EventHandler(this.btnHidePassword_Click);
+            // 
+            // btnShowComfirmPassword
+            // 
+            this.btnShowComfirmPassword.BackColor = System.Drawing.Color.Transparent;
+            this.btnShowComfirmPassword.BackgroundImage = global::CoffeStore.Properties.Resources.Eye;
+            this.btnShowComfirmPassword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnShowComfirmPassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnShowComfirmPassword.Location = new System.Drawing.Point(574, 643);
+            this.btnShowComfirmPassword.Name = "btnShowComfirmPassword";
+            this.btnShowComfirmPassword.Size = new System.Drawing.Size(33, 39);
+            this.btnShowComfirmPassword.TabIndex = 37;
+            this.btnShowComfirmPassword.UseVisualStyleBackColor = false;
+            this.btnShowComfirmPassword.Click += new System.EventHandler(this.btnShowComfirmPassword_Click);
+            // 
+            // btnHideComfirmPassword
+            // 
+            this.btnHideComfirmPassword.BackgroundImage = global::CoffeStore.Properties.Resources.Blind1;
+            this.btnHideComfirmPassword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnHideComfirmPassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHideComfirmPassword.Location = new System.Drawing.Point(574, 643);
+            this.btnHideComfirmPassword.Name = "btnHideComfirmPassword";
+            this.btnHideComfirmPassword.Size = new System.Drawing.Size(33, 39);
+            this.btnHideComfirmPassword.TabIndex = 38;
+            this.btnHideComfirmPassword.UseVisualStyleBackColor = true;
+            this.btnHideComfirmPassword.Click += new System.EventHandler(this.btnHideComfirmPassword_Click);
+            // 
             // UCDoiMatKhau
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Controls.Add(this.btnShowComfirmPassword);
+            this.Controls.Add(this.btnHideComfirmPassword);
+            this.Controls.Add(this.btnShowPassword);
+            this.Controls.Add(this.btnHidePassword);
             this.Controls.Add(this.lblConfirmPassword);
             this.Controls.Add(this.lblEnterPassword);
             this.Controls.Add(this.txtConfirmPassword);
@@ -144,5 +206,9 @@
         private System.Windows.Forms.TextBox txtConfirmPassword;
         private System.Windows.Forms.Label lblEnterPassword;
         private System.Windows.Forms.Label lblConfirmPassword;
+        private System.Windows.Forms.Button btnShowPassword;
+        private System.Windows.Forms.Button btnHidePassword;
+        private System.Windows.Forms.Button btnShowComfirmPassword;
+        private System.Windows.Forms.Button btnHideComfirmPassword;
     }
 }

@@ -148,6 +148,11 @@ namespace CoffeStore.HeThong.NhanVienBanHang.GioHang
 
         }
 
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
         private void btnIn_Click(object sender, EventArgs e)
         {
             //  BaseFont bf = BaseFont.CreateFont("C:\\fonts\\vuArial.ttf",
