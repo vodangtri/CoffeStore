@@ -324,3 +324,4 @@ C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.exe
 C:\Users\84793\CoffeStore\CoffeStore\obj\Debug\CoffeStore.pdb
 >>>>>>> c7c74a964b594914029ed30d71f2f744dbd4a2ad
 >>>>>>> adc45cdb146f3256e45961d0d1dd4e37fa9f358c
+C:\Users\WIN10\CoffeStore\CoffeStore\obj\Debug\CoffeStore.HeThong.QuanLiCoffeStore.QuanLiNhanVien.Form1.resources

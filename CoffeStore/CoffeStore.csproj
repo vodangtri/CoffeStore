@@ -162,6 +162,10 @@
     <Compile Include="HeThong\QuanLiCoffeStore\DoanhThu\UCDoanhThu.Designer.cs">
       <DependentUpon>UCDoanhThu.cs</DependentUpon>
     </Compile>
+    <Compile Include="HeThong\QuanLiCoffeStore\QuanLiNhanVien\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeThong\QuanLiCoffeStore\QuanLiNhanVien\Taotaikhoan.cs" />
     <Compile Include="HeThong\QuanLiCoffeStore\QuanLiThucDon\ItemsQL.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -281,6 +285,9 @@
     <EmbeddedResource Include="HeThong\QuanLiCoffeStore\DoanhThu\UCDoanhThu.resx">
       <DependentUpon>UCDoanhThu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="HeThong\QuanLiCoffeStore\QuanLiNhanVien\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HeThong\QuanLiCoffeStore\QuanLiThucDon\ItemsQL.resx">
       <DependentUpon>ItemsQL.cs</DependentUpon>
     </EmbeddedResource>
@@ -362,7 +369,6 @@
     <Folder Include="HeThong\NhanVienKho\QuanLiTaiKhoan\" />
     <Folder Include="HeThong\QuanLiCoffeStore\DangXuat\" />
     <Folder Include="HeThong\QuanLiCoffeStore\QuanLiKho\" />
-    <Folder Include="HeThong\QuanLiCoffeStore\QuanLiNhanVien\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
